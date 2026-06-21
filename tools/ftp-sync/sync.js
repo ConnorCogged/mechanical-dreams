@@ -88,10 +88,11 @@ OPTIONS
   --build      Build the server-side pack into ${path.relative(process.cwd(), STAGE_DIR) || '.server-stage'}/
                (runs packwiz-installer with "-s server"; downloads the
                bootstrap jar if missing).
-  --deploy     RECOMMENDED efficient path. Builds mods-only staging, then via
-               the Pterodactyl client API uploads ONLY changed jars as one zip,
-               decompresses it server-side, prunes removed jars, and verifies.
-               Uses the "pterodactyl" config block. Implies a build.
+  --deploy     RECOMMENDED efficient path. Builds mods-only staging, then over
+               SFTP/FTP uploads ONLY the changed jars as a SINGLE zip, prunes
+               removed jars, and verifies. The zip is decompressed automatically
+               if a panel "pterodactyl" apiKey is configured, otherwise you are
+               prompted to extract it by hand (panel/WinSCP). Implies a build.
   --upload     FALLBACK path (FTP/SFTP). Upload the staged mods/ (and config/
                with --with-config) to the remote server, skipping files whose
                size + modified-time already match.
@@ -104,7 +105,7 @@ OPTIONS
   -h, --help   Show this help.
 
 EXAMPLES
-  node sync.js --deploy --dry-run            # preview the API deploy diff
+  node sync.js --deploy --dry-run            # preview the SFTP deploy diff
   node sync.js --deploy                      # efficient deploy (recommended)
   node sync.js --build --upload              # FTP/SFTP fallback (mods only)
   node sync.js --build --upload --mirror     # fallback + prune stale remote mods
@@ -114,14 +115,16 @@ EXAMPLES
 NOTE
   Shaders, resource packs and options.txt are never fetched or uploaded.
   config/ is excluded unless --with-config is given (it may contain secrets).
-  --deploy handles only mods/ (zip + decompress); use --upload --with-config for
-  the one-time config push.
+  --deploy handles only mods/; use --upload --with-config for the one-time
+  config push.
 
 CONFIG
   Reads settings from config.json (gitignored).
   Copy config.example.json -> config.json and fill it in.
-  --deploy  uses the "pterodactyl" block (panelUrl, apiKey, serverId, ...).
-  --upload  uses the FTP/SFTP fields (protocol, host, user, password, ...).
+  Both --deploy and --upload use the FTP/SFTP fields
+  (protocol, host, port, user, password, remoteBase).
+  --deploy can OPTIONALLY use a "pterodactyl" block (panelUrl, apiKey, serverId)
+  to auto-decompress the uploaded zip; omit it to decompress by hand.
 `);
 }
 
@@ -143,7 +146,7 @@ function readConfig() {
   }
 
   // Strip "//"-prefixed comment keys used in the example file (top level and
-  // one level deep, e.g. inside the "pterodactyl" object).
+  // one level deep, e.g. inside any nested object).
   const cfg = {};
   for (const [k, v] of Object.entries(raw)) {
     if (k.startsWith('//')) continue;
@@ -175,23 +178,6 @@ function loadConfig() {
   }
   if (!cfg.remoteBase) cfg.remoteBase = '/';
   return cfg;
-}
-
-/** Validate + normalize the "pterodactyl" config block used by --deploy. */
-function loadPteroConfig() {
-  const cfg = readConfig();
-  const p = cfg.pterodactyl;
-  if (!p || typeof p !== 'object') {
-    throw new Error(
-      'config.json: a "pterodactyl" object is required for --deploy.\n' +
-        'See config.example.json for the panelUrl / apiKey / serverId fields.'
-    );
-  }
-  if (!p.panelUrl) throw new Error('config.json: "pterodactyl.panelUrl" is required.');
-  if (!p.apiKey) throw new Error('config.json: "pterodactyl.apiKey" is required.');
-  if (!p.serverId) throw new Error('config.json: "pterodactyl.serverId" is required.');
-  if (!p.remoteModsDir) p.remoteModsDir = 'mods';
-  return p;
 }
 
 // --- Path helpers ----------------------------------------------------------
@@ -450,11 +436,11 @@ async function main() {
     return;
   }
 
-  // --- Efficient API deploy (recommended). Builds mods-only staging itself. ---
+  // --- Efficient SFTP/FTP deploy (recommended). Builds mods-only staging. ---
   if (flags.deploy) {
-    const pteroCfg = loadPteroConfig();
+    const cfg = loadConfig();
     await build({ dryRun: flags.dryRun, withConfig: false });
-    const result = await deploy(pteroCfg, { dryRun: flags.dryRun });
+    const result = await deploy(cfg, { dryRun: flags.dryRun });
     if (!flags.dryRun && result && result.verified === false) {
       process.exitCode = 1;
     }

@@ -78,8 +78,20 @@ class FtpClient {
     }));
   }
 
-  async uploadFrom(localPath, remotePath) {
-    await this.client.uploadFrom(localPath, remotePath);
+  /**
+   * Upload a local file. If `onProgress(transferred, total)` is given, report
+   * byte-level progress via basic-ftp's trackProgress hook (cleared after).
+   */
+  async uploadFrom(localPath, remotePath, onProgress) {
+    if (typeof onProgress === 'function') {
+      const total = require('fs').statSync(localPath).size;
+      this.client.trackProgress((info) => onProgress(info.bytesOverall, total));
+    }
+    try {
+      await this.client.uploadFrom(localPath, remotePath);
+    } finally {
+      if (typeof onProgress === 'function') this.client.trackProgress();
+    }
   }
 
   async removeFile(remotePath) {

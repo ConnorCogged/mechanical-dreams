@@ -26,6 +26,11 @@ class SftpClient {
       port: this.cfg.port || 2022,
       username: this.cfg.user,
       password: this.cfg.password,
+      // Opt-in SSH transport compression. ssh2 negotiates zlib when both ends
+      // support it and silently falls back to none otherwise, so this is safe.
+      // Note: mod jars are already DEFLATE-compressed, so the on-the-wire gain
+      // is usually tiny — leave off unless your link is the bottleneck.
+      compress: this.cfg.compress === true,
     });
   }
 
@@ -66,8 +71,18 @@ class SftpClient {
     }));
   }
 
-  async uploadFrom(localPath, remotePath) {
-    await this.client.put(localPath, remotePath);
+  /**
+   * Upload a local file. If `onProgress(transferred, total)` is given, stream
+   * byte-level progress via fastPut's step callback.
+   */
+  async uploadFrom(localPath, remotePath, onProgress) {
+    if (typeof onProgress === 'function') {
+      await this.client.fastPut(localPath, remotePath, {
+        step: (transferred, _chunk, total) => onProgress(transferred, total),
+      });
+    } else {
+      await this.client.put(localPath, remotePath);
+    }
   }
 
   async removeFile(remotePath) {

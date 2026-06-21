@@ -1,7 +1,7 @@
 {
   "//": "Copy this file to config.json and fill in real values. config.json is gitignored.",
-  "//protocol": "ftp (default) or sftp. Pterodactyl panels usually expose SFTP on port 2022.",
-  "protocol": "ftp",
+  "//protocol": "sftp (default for Pterodactyl, port 2022) or ftp. Used by both --deploy and --upload.",
+  "protocol": "sftp",
 
   "//host": "Hostname or IP of the server (no protocol prefix).",
   "host": "ftp.example-host.net",
@@ -18,21 +18,24 @@
   "//secure": "FTP only. true = explicit FTPS (FTP over TLS). false = plain FTP. Ignored for sftp.",
   "secure": false,
 
-  "//remoteBase": "Remote directory the pack lives in. mods/ and config/ are created/synced under this. Typically '/' for Pterodactyl (the server root).",
+  "//remoteBase": "Remote directory the pack lives in. mods/ and config/ are created/synced under this. Typically '/' for Pterodactyl (the server root). Used by both --deploy and --upload.",
   "remoteBase": "/",
 
-  "//pterodactyl": "Used by the RECOMMENDED --deploy path (zip + decompress via the Pterodactyl client API). The FTP/SFTP fields above are only used by the --upload fallback.",
+  "//concurrency": "--deploy only: number of parallel upload connections. Default 4. Lower it if your host limits simultaneous SFTP sessions.",
+  "concurrency": 4,
+
+  "//compress": "SFTP only: enable SSH transport compression (true/false). Default false. Mod jars are already compressed, so this rarely helps and costs CPU.",
+  "compress": false,
+
+  "//pterodactyl": "OPTIONAL. If present, --deploy auto-decompresses the uploaded zip via the panel client API. OMIT this whole block to instead be prompted to decompress the zip by hand (panel File Manager or WinSCP).",
   "pterodactyl": {
-    "//panelUrl": "Base URL of your Pterodactyl panel, no trailing slash, e.g. 'https://panel.your-host.net'.",
+    "//panelUrl": "Base URL of your panel, no trailing slash, e.g. 'https://panel.your-host.net'.",
     "panelUrl": "https://panel.example-host.net",
 
-    "//apiKey": "A CLIENT API key (Account -> API Credentials in the panel). Starts with 'ptlc_'. Never commit this.",
+    "//apiKey": "A CLIENT API key (Account -> API Credentials). Starts with 'ptlc_'. Never commit this.",
     "apiKey": "ptlc_changeme",
 
-    "//serverId": "The short server identifier from the panel URL (panel.host/server/<serverId>), e.g. 'a1b2c3d4'.",
-    "serverId": "a1b2c3d4",
-
-    "//remoteModsDir": "Mods directory relative to the server root. Default 'mods'.",
-    "remoteModsDir": "mods"
+    "//serverId": "Short server id from the panel URL (panel.host/server/<serverId>), e.g. 'a1b2c3d4'.",
+    "serverId": "a1b2c3d4"
   }
 }
