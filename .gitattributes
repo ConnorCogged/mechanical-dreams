@@ -1,0 +1,3 @@
+# packwiz hashes files byte-for-byte. Disable ALL line-ending conversion so the
+# bytes GitHub serves match the hashes in index.toml (otherwise installs fail).
+* -text
