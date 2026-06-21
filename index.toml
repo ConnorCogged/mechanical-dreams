@@ -5,6 +5,10 @@ file = "CREDITS.md"
 hash = "0b80c71a171e63d6bd5b5e4d1b53375f01b218784d4ff61bd3c0f71fb3e13315"
 
 [[files]]
+file = "README.md"
+hash = "4d13e1df83d49ff6e50fee2790b05f3b83a739c995d98924059aac52d9c1784b"
+
+[[files]]
 file = "complementary-reimagined.pw.toml"
 hash = "335d3e0f28b42381f929c9997dd188cd656178904833c2d1b01dfd3e098b0569"
 metafile = true
@@ -1551,6 +1555,11 @@ file = "config/zeta-common.toml"
 hash = "d985bfc68899c91aa642736400472f6ab876dedaaef4b8c31f38b52d48de633d"
 
 [[files]]
+file = "mods/3dskinlayers.pw.toml"
+hash = "c702340478761af2d35bb8b9c8fd26745741fe800adda5857112f2efec98f076"
+metafile = true
+
+[[files]]
 file = "mods/advanced-peripherals.pw.toml"
 hash = "4832374d2149e53968b68a4dd8499ef078f600cf3ad5491d23777e9e83140493"
 metafile = true
@@ -1609,7 +1618,7 @@ metafile = true
 
 [[files]]
 file = "mods/cc-redstone-link-bridge.pw.toml"
-hash = "8de9b2cb2ecb190e8034b0ed58536e5ddfa4b851749703c9793ac57b6c0f2e23"
+hash = "791a6138f2501b4e3d2695bc6f95d207da57872cb7a32074a6236a264e43cb7f"
 metafile = true
 
 [[files]]
@@ -1686,7 +1695,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics.pw.toml"
-hash = "59beba57945e374108e22789e8fc32d2758174929ebd9bf17fc139956dc32e30"
+hash = "5fab8d2e412683dfd72f08cf6750e51b03cb43192e8eb783e962ba28d20978bc"
 metafile = true
 
 [[files]]
@@ -1828,7 +1837,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "9b2e889ddc7ea7f511f3b031208064e4d96f145b1abf1eefa2ad5a5110bdf2c3"
+hash = "79b6d35e03f01866680b412a3d74139feb3bf1e5b56db43ea3237c52b58ffc6c"
 metafile = true
 
 [[files]]
@@ -1858,7 +1867,7 @@ metafile = true
 
 [[files]]
 file = "mods/gears-n-kinetics.pw.toml"
-hash = "ce35bf5e845d46c98e22131cb8e04e147aafe62d3492da97a1a3090621af0281"
+hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
 metafile = true
 
 [[files]]
@@ -1898,7 +1907,7 @@ metafile = true
 
 [[files]]
 file = "mods/immersive-snow.pw.toml"
-hash = "9af6affb0af3afe9568960d47023bc80a7b0aee208f3dd36642d65b2754b8470"
+hash = "34e2d8ef808be00c3fedcb01ef0336828dcbd91994d73fb9c37366f391dd7383"
 metafile = true
 
 [[files]]
@@ -1986,7 +1995,7 @@ metafile = true
 
 [[files]]
 file = "mods/mods-optimizer.pw.toml"
-hash = "3a8ee4667ac55f7d731cc07f6bc02278fb83048d0cb0b0d24ed6a666e87779bd"
+hash = "92b0f0e3b461438a9a65184076a297adf477b084ae3792bf2a70ec942cbd2439"
 metafile = true
 
 [[files]]
@@ -2106,11 +2115,6 @@ hash = "fbfdb180b5a9b90513707d91dee14e1eba759a0c55604914ac6c15e17d86fa59"
 metafile = true
 
 [[files]]
-file = "mods/skin-layers-3d.pw.toml"
-hash = "9b6b0aeeb5a8a6ce4aacb29b291771027a48d580cb362bf1ec93fd484e724f6c"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "ff6934dbf3203c63dbdab3b2b3a89e82c047ad22db63d8511d737a489aac743c"
 metafile = true
@@ -2221,12 +2225,12 @@ hash = "0cc9a874102b2de72e4fb975b8ade666c995e1d71292243da02691ed4bbc9180"
 
 [[files]]
 file = "resourcepacks/better-lanterns.pw.toml"
-hash = "6804e0b2f5c45be49e552c0b851faedbb498f06c56538a2a7bf374342de806b2"
+hash = "a7fc8c31dabaa7c69e27865c7302c3bf750a17fc627746a34c3a8d07a41fbbcd"
 metafile = true
 
 [[files]]
 file = "resourcepacks/create-pbr.pw.toml"
-hash = "e6468deaa30e5d9a8aaf1c36f52cb4d33143afce0b9d7a6754e765611b33f231"
+hash = "4b38a5e4ff98424d9a994675baa32aef746d68249088bba2237d2f4ba5344ef4"
 metafile = true
 
 [[files]]
@@ -2241,12 +2245,12 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations-extensions.pw.toml"
-hash = "633345333ff363fd71d17faa2bb39be6c3b1041bb1c5fdcc616827d2221c152f"
+hash = "9fd64cf209789e2451d0d7707a4b87fe0c787e74eb31ce79ed94f4a30849c05d"
 metafile = true
 
 [[files]]
 file = "resourcepacks/fresh-animations.pw.toml"
-hash = "da66421a2a0dcab59fc4b17705b0aae4cd88b20634ebea20b0224fee2bef8251"
+hash = "9dc9b1568b6eaa48e16455e2a119566aa0e1c0e6f3e71099b97c535a73d0cd84"
 metafile = true
 
 [[files]]
@@ -2266,7 +2270,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/mandalas-gui-dark-mode.pw.toml"
-hash = "c3c618df6fa8e9f4b8de628c050cde77fec5fac7778a38ac94b28f42183e3a2a"
+hash = "d668a2a864228bd651c2a8aced512004f4b4443c92880ab4c1cc131350980f33"
 metafile = true
 
 [[files]]
@@ -2276,7 +2280,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/shrimps-immersive-interfaces.pw.toml"
-hash = "f9e0e094a2ed74d1303dae131eeb0accc5a98bb48aabd413b014bc2901de19d6"
+hash = "ae2879b2b43ab1f8838935f88a8dd653cd92b2bdc33049a6e4ff603d0c52e739"
 metafile = true
 
 [[files]]

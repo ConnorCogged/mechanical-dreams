@@ -3,14 +3,14 @@ filename = "immersivesnow-1.21.1-1.4.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "46d3f58e9ec65ddb2d7c6200b6c6089681fdf703"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/mQdEVqSA/versions/Of60m2yB/immersivesnow-1.21.1-1.4.0.jar"
+hash-format = "sha512"
+hash = "69a2fa9a0fa8dc7285fa2c067f6f26e9184ad27d3537c7f92f2004d3f50438380644bd31862500af9dbb07b076041ec5ea890b8b62492f05e6e6ae5677b3469a"
 
 [update]
-[update.curseforge]
-file-id = 6115110
-project-id = 1058082
+[update.modrinth]
+mod-id = "mQdEVqSA"
+version = "Of60m2yB"
 
 [option]
 optional = true

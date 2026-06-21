@@ -3,11 +3,11 @@ filename = "mods_optimizer-neoforge-1.21.1-4.3.0.jar"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "0271ce79456854fc6b5aba572f94d54cdc3fbac1"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/hlVtb1H0/versions/YsuxMxVa/mods_optimizer-neoforge-1.21.1-4.3.0.jar"
+hash-format = "sha512"
+hash = "afcac014cf7f24b36b0e41ec245e848892b091703523e0faa330bed4afade21e6dca3ce1dbb3829dd34f8a00cccb3e2d02672f1fa0c7602e2dbf0308ed0651de"
 
 [update]
-[update.curseforge]
-file-id = 7330072
-project-id = 947247
+[update.modrinth]
+mod-id = "hlVtb1H0"
+version = "YsuxMxVa"

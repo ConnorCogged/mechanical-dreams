@@ -3,11 +3,11 @@ filename = "Create-LabPBR-v12.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "241abeb79a06b405a514e8ecee3e0fde123f9be8"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/CFeoJnHX/versions/z4DFwE0n/Create-LabPBR-v12.zip"
+hash-format = "sha512"
+hash = "ad690590ba7b517ac1ef4467bf93fcd0d766c127e2773ee80eaae4bf91c174f87ca0595b6188800365922aab490b138a8c27a7c37bc4a21b57ed32c3afe2c3ca"
 
 [update]
-[update.curseforge]
-file-id = 5759474
-project-id = 682954
+[update.modrinth]
+mod-id = "CFeoJnHX"
+version = "z4DFwE0n"
