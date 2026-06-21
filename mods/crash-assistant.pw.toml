@@ -14,4 +14,5 @@ project-id = 1154099
 
 [option]
 optional = true
-default = false
+default = true
+description = "Analyzes crash reports in-game and points to the mod most likely responsible. Handy when troubleshooting crashes; not needed for normal play."

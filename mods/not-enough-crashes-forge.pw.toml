@@ -15,3 +15,4 @@ project-id = 442354
 [option]
 optional = true
 default = false
+description = "Shows a friendlier crash screen and lets you return to the menu instead of closing the game on many crashes. Useful for debugging."

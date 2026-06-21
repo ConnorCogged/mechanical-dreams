@@ -14,4 +14,5 @@ project-id = 1328492
 
 [option]
 optional = true
-default = false
+default = true
+description = "Adds realistic sound reverb, occlusion, and absorption based on surrounding blocks. Immersive audio — small performance cost."

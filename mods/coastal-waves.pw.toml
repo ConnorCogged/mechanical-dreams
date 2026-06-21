@@ -15,3 +15,4 @@ project-id = 1155936
 [option]
 optional = true
 default = false
+description = "Adds animated rolling waves along ocean shorelines for more lively water. Purely visual — disable on low-end machines."

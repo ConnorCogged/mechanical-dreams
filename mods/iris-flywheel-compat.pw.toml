@@ -15,3 +15,4 @@ project-id = 659897
 [option]
 optional = true
 default = false
+description = "Lets Create's Flywheel rendering work while shaders are active. Only needed if you use Iris shaders alongside Create."

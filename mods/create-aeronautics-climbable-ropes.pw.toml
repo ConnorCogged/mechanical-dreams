@@ -15,3 +15,4 @@ project-id = 1528764
 [option]
 optional = true
 default = false
+description = "Lets you climb the ropes used by Create Aeronautics airships. Quality-of-life — enable if you build with Aeronautics rope anchors."

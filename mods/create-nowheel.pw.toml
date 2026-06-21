@@ -15,3 +15,4 @@ project-id = 1544167
 [option]
 optional = true
 default = false
+description = "Skips rendering Create machines hidden behind walls (occlusion culling), boosting FPS in large factories. Client-side performance only."

@@ -15,3 +15,4 @@ version = "xPYbAPfz"
 [option]
 optional = true
 default = false
+description = "Renders the outer skin layer (hat, jacket, sleeves) in true 3D on player models. Purely cosmetic — enable for nicer-looking players, disable to save a little performance."

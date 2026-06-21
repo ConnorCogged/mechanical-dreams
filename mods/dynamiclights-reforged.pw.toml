@@ -15,3 +15,4 @@ project-id = 551736
 [option]
 optional = true
 default = false
+description = "Makes held and dropped light sources (torches, glowstone, lanterns) emit dynamic light. Cosmetic quality-of-life — small performance cost."

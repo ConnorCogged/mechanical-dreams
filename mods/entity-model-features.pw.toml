@@ -15,3 +15,4 @@ project-id = 844662
 [option]
 optional = true
 default = false
+description = "Enables custom and animated entity models from resource packs (OptiFine-style CEM). Only useful with resource packs that provide custom models."

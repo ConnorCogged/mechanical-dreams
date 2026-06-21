@@ -15,3 +15,4 @@ project-id = 580555
 [option]
 optional = true
 default = false
+description = "Recipe and item viewer showing recipes, uses, and crafting trees. An alternative to JEI (already included) — enable if you prefer EMI's interface."

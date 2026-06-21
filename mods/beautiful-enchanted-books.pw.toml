@@ -15,3 +15,4 @@ project-id = 1083202
 [option]
 optional = true
 default = false
+description = "Gives every enchantment its own unique book texture so you can identify enchanted books at a glance. Cosmetic only."

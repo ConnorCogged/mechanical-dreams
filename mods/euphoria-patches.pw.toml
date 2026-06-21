@@ -15,3 +15,4 @@ project-id = 915902
 [option]
 optional = true
 default = false
+description = "Adds extra features and effects to the Complementary shaderpacks. Only useful if you run Complementary shaders through Iris."

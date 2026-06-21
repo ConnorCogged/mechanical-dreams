@@ -15,3 +15,4 @@ project-id = 1217518
 [option]
 optional = true
 default = false
+description = "Client-side optimization that reduces the rendering cost of Create's moving contraptions. Enable for smoother FPS around large Create builds."

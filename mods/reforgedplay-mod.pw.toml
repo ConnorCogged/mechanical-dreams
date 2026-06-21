@@ -15,3 +15,4 @@ project-id = 1018692
 [option]
 optional = true
 default = false
+description = "Replay Mod port for (Neo)Forge — record, replay, and produce cinematic camera footage of your gameplay. Mainly for content creators."
