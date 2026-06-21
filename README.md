@@ -23,7 +23,7 @@ Create a NeoForge 1.21.1 instance, drop `packwiz-installer-bootstrap.jar` into i
 Custom Commands):
 
 ```
-"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://raw.githubusercontent.com/ConnorCogged/mechanical-dreams/main/pack.toml
+"$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://connorcogged.github.io/mechanical-dreams/pack.toml
 ```
 
 ## For the maintainer — updating the pack

@@ -1,12 +1,16 @@
 hash-format = "sha256"
 
 [[files]]
+file = ".nojekyll"
+hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+
+[[files]]
 file = "CREDITS.md"
 hash = "0b80c71a171e63d6bd5b5e4d1b53375f01b218784d4ff61bd3c0f71fb3e13315"
 
 [[files]]
 file = "README.md"
-hash = "4d13e1df83d49ff6e50fee2790b05f3b83a739c995d98924059aac52d9c1784b"
+hash = "12dcadc3a614ef1953918776a172a2c90d2d1208432b1b7cf78d18fb59d5028b"
 
 [[files]]
 file = "complementary-reimagined.pw.toml"
@@ -2120,11 +2124,6 @@ hash = "ff6934dbf3203c63dbdab3b2b3a89e82c047ad22db63d8511d737a489aac743c"
 metafile = true
 
 [[files]]
-file = "mods/snow-real-magic-serene-seasons.pw.toml"
-hash = "0cbdfc6c384436edd9193784c3810439539001c5db036420c58b4ad6f3f22103"
-metafile = true
-
-[[files]]
 file = "mods/snow-real-magic.pw.toml"
 hash = "47dca01626a971d2c18cb53e242958c3216dc378b9c472adc3b0a93c3c5420c8"
 metafile = true
@@ -2265,7 +2264,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/immersive-interfaces-mod-support-unofficial.pw.toml"
-hash = "fc25034c175c6497d83ec4f14b816cf953da85c954ea5570cefc704318aa5169"
+hash = "af3cbff424224a660b314966767d79a3e9ec50cc945b5aebac365ec5cf90df3f"
 metafile = true
 
 [[files]]

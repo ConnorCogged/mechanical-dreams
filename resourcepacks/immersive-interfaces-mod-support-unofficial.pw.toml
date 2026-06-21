@@ -3,11 +3,11 @@ filename = "§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
 side = "both"
 
 [download]
-hash-format = "sha1"
-hash = "7eda16172a512675e276adbee0a1e065d9ef1e85"
-mode = "metadata:curseforge"
+url = "https://cdn.modrinth.com/data/zW0OkthM/versions/6QMG8r6x/%C2%A76Immersive%C2%A78_%C2%A76Interfaces%C2%A78_%C2%A76Modded%C2%A78.zip"
+hash-format = "sha512"
+hash = "b8f606a9eccf5864d99e1e0d2a1cabab44dcbe52047f8f92e63dda87ebe0aa3cc2ef1df987ea1e5c1cab8227985efb4443c8a0f4b60d99a3966f2353701c023f"
 
 [update]
-[update.curseforge]
-file-id = 7893613
-project-id = 1292547
+[update.modrinth]
+mod-id = "zW0OkthM"
+version = "6QMG8r6x"
