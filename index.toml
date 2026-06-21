@@ -1594,11 +1594,6 @@ hash = "b73a4746f8235c8e74867074c355c9ea776dee03177a8dfff69588f7cc89be41"
 metafile = true
 
 [[files]]
-file = "mods/c2me.pw.toml"
-hash = "a3178253377879d78b45f0438308a630f41ed53888a01d2106a3368a095166c7"
-metafile = true
-
-[[files]]
 file = "mods/cbc_compact_mount-1.2.2.jar"
 hash = "618e8cfc47bb0c70e09b5748913a48016532e9de104319d94b353ba434156474"
 
@@ -1609,11 +1604,6 @@ hash = "b15cd24f7b2e394830806003276114e558432b632ec6c4f2abbec2c58edc2c9b"
 [[files]]
 file = "mods/cbcmodernwarfare-0.0.6d-sablefix6+mc.1.21.1-neoforge.jar"
 hash = "3efd4237466eacb8c60c845155b48fb422abce5d386b3a0842886631183ca61c"
-
-[[files]]
-file = "mods/cc-cbc.pw.toml"
-hash = "640e374ca45d1040e3982d77526fd57aa7350c0de3b893e84826ff2c65ea6ecd"
-metafile = true
 
 [[files]]
 file = "mods/cc-graphics.pw.toml"
@@ -1890,11 +1880,6 @@ hash = "204c2537ff1383d973a32677b566b898d0a92046b8245ced5d72653f3624f19f"
 metafile = true
 
 [[files]]
-file = "mods/hybrid-aquatic.pw.toml"
-hash = "6798193cba4ef9bc2bcc58bd9e2bdfa27d7f652a91a55f07b84e24e22445264f"
-metafile = true
-
-[[files]]
 file = "mods/immediatelyfast.pw.toml"
 hash = "b7282d1760b0b79bf0b96d2e66fd4c5bf6840555e9c602f3b9a9064cfeb918a0"
 metafile = true
@@ -1902,11 +1887,6 @@ metafile = true
 [[files]]
 file = "mods/immersive-optimization.pw.toml"
 hash = "88c666259f5e45c7ea59da636ba4aa651a6b4f154f4a4472b52725471d06f035"
-metafile = true
-
-[[files]]
-file = "mods/immersive-portals-for-forge.pw.toml"
-hash = "108c7e2d358cc4f05c3325fdd06aede140404697328edc6528edcbe2429cb225"
 metafile = true
 
 [[files]]
@@ -1966,21 +1946,6 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "bd5faab042efe7ecea0fb36e31af2332914968605d9f3870f134f4154e2bca26"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-generators.pw.toml"
-hash = "d270c535152d5388823cbd3913a0f14b088ef14f91f9eec61444f1102d19bdc1"
-metafile = true
-
-[[files]]
-file = "mods/mekanism-tools.pw.toml"
-hash = "2d6a6b9cef775c2baff586138fd0833595000295b645cc9813f84833c38cb415"
-metafile = true
-
-[[files]]
-file = "mods/mekanism.pw.toml"
-hash = "290b13afab94146d1159d821b73c8c98f5299b4df75fd28e826f9fd409e9bb40"
 metafile = true
 
 [[files]]
@@ -2050,11 +2015,6 @@ hash = "1cb4d10e4920284d982c90a2145d57bb09d754f04e83cb0f9aae6bd45f3d2d2b"
 metafile = true
 
 [[files]]
-file = "mods/raids-enhanced.pw.toml"
-hash = "127e210542a0ed91dc6b3651dfcfabb23f1af16ef9bfd9cf9114ebe3478f8bbf"
-metafile = true
-
-[[files]]
 file = "mods/redirected.pw.toml"
 hash = "a8e09044fb84c6b63782d68be84c899fbecebf7b70ee3f36a83bcff9e475d411"
 metafile = true
@@ -2109,11 +2069,6 @@ file = "mods/simpleradio-neoforge-1.21.1-4.4.6.8.jar"
 hash = "0e48165c6b71695544cd62f700c162937f3c0368eb469f07d8eac4d5585d7235"
 
 [[files]]
-file = "mods/simulatedextra.pw.toml"
-hash = "666f071d9830425c5ce90032761d466dfba20bf3a3bc8f5457585cff1f52cde1"
-metafile = true
-
-[[files]]
 file = "mods/smooth-chunk-save.pw.toml"
 hash = "e1732bc6bcc077b23a2784e21839c4d113e2dbf0de29e9448fb7b39d28b19a61"
 metafile = true
@@ -2146,11 +2101,6 @@ metafile = true
 [[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "60d6921ec70b1c098fcfbf0254022b7a9a3a859635e6857fd6dc64c12381aeac"
-metafile = true
-
-[[files]]
-file = "mods/supplementaries.pw.toml"
-hash = "8fffbaea812abaf63eef0b1bee642745791a49b54c8689bf3cd62cd29b2b7f81"
 metafile = true
 
 [[files]]
