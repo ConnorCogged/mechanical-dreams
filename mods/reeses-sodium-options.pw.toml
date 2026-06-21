@@ -1,6 +1,6 @@
 name = "Reese's Sodium Options"
 filename = "reeses-sodium-options-neoforge-2.0.5+mc1.21.1.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -12,6 +12,3 @@ mode = "metadata:curseforge"
 file-id = 8141953
 project-id = 511319
 
-[option]
-optional = true
-default = false

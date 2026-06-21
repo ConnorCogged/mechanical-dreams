@@ -1,6 +1,6 @@
 name = "Fresh Moves"
 filename = "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -12,6 +12,3 @@ mode = "metadata:curseforge"
 file-id = 6105672
 project-id = 990406
 
-[option]
-optional = true
-default = false
