@@ -1969,6 +1969,11 @@ hash = "54d61dcf34eec5aa12eea8f71a0531d64174697e36a6572adecd8dada43e747f"
 metafile = true
 
 [[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "bbaa5acb4a63efb00b03a674e3c4490a67da1c24ca9b8d6c43f74a1dee905049"
+metafile = true
+
+[[files]]
 file = "mods/noisiumforked.pw.toml"
 hash = "33dde50a78c51c9c2f47b2755e1a7e8d19430112a2c3b53c399c3800dfc7903f"
 metafile = true
