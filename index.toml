@@ -1578,6 +1578,11 @@ hash = "b73a4746f8235c8e74867074c355c9ea776dee03177a8dfff69588f7cc89be41"
 metafile = true
 
 [[files]]
+file = "mods/c2me.pw.toml"
+hash = "3194276e46b476e4dcf45109204daac5f4fe11ac94e0dc1e151a3d0fc20292d3"
+metafile = true
+
+[[files]]
 file = "mods/cbc_compact_mount-1.2.2.jar"
 hash = "618e8cfc47bb0c70e09b5748913a48016532e9de104319d94b353ba434156474"
 
