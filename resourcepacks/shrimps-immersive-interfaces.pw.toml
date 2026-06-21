@@ -1,0 +1,13 @@
+name = "Shrimp's Immersive Interfaces"
+filename = "§6Immersive§8_§6Interfaces§8.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "176aa5cf21d2c6b6a24d11cf0e74aed4c4ca9621"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7937133
+project-id = 1087342

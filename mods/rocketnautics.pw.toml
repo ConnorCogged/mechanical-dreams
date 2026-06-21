@@ -1,0 +1,8 @@
+name = "Create: Cosmonautics"
+filename = "rocketnautics-1.3.3.jar"
+side = "both"
+
+[download]
+url = "https://github.com/CosmonauticsTeam/Create-Cosmonautics/releases/download/v1.3.3/rocketnautics-1.3.3.jar"
+hash-format = "sha256"
+hash = "511f0b9398e269f2d36e2c5fe025c6e369a220cfa108a20abd10cdf52bf6807f"

@@ -1,0 +1,33 @@
+# Default: 2048
+# Range: > 16
+radar_range_limit = 2048
+# Default: 1024
+# Range: > 16
+radar_default_range = 1024
+
+	[cbc.cheat_cannon]
+		enable = true
+		# Default: 8
+		# Range: > 1
+		max_fire_rate = 8
+		# Default: 20
+		# Range: > 1
+		rate_window = 20
+
+[entity_radar]
+	# Default: 2048
+	# Range: > 16
+	entity_range_limit = 2048
+	# Default: 1024
+	# Range: > 16
+	player_range_limit = 1024
+	show_player_names = true
+
+[sable_engine]
+	enable = true
+	# Default: 4
+	# Range: > 1
+	max_rate = 4
+	# Default: 20
+	# Range: > 1
+	rate_window = 20

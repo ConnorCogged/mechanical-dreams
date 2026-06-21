@@ -1,0 +1,13 @@
+name = "Better Lanterns"
+filename = "Better+Lanterns+v1.2(mc-1.21).zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "fa1e0dc78b535df918dca5ba453ebbdb6415ce48"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5424501
+project-id = 618339

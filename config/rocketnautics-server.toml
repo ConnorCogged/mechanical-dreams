@@ -1,0 +1,25 @@
+[Thrusters]
+	#Maximum fuel consumption in mB/tick
+	# Default: 40
+	# Range: 1 ~ 1000
+	maxFuelConsumption = 40
+	#Flow threshold for full ignition (mB/tick)
+	# Default: 5
+	# Range: 1 ~ 100
+	ignitionFlow = 5
+	#Flow threshold for pre-ignition steam phase (mB/tick)
+	# Default: 2
+	# Range: 1 ~ 100
+	steamMinFlow = 2
+	#Enable debug logging for engine fuel and thrust (can cause spam)
+	enableEngineDebugLogging = false
+
+[Jetpack]
+	#Standard thrust power of the jetpack
+	# Default: 0.15
+	# Range: 0.01 ~ 1.0
+	jetpackThrust = 0.15
+	#Thrust power of the jetpack while sprinting
+	# Default: 0.35
+	# Range: 0.01 ~ 2.0
+	jetpackSprintThrust = 0.35

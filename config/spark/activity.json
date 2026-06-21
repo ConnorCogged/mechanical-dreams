@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "ConnorCogged",
+      "uniqueId": "d56007ec-2610-4958-88bb-b4115c92e744"
+    },
+    "time": 1780316778048,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/zNT36rCaNB"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ConnorCogged",
+      "uniqueId": "d56007ec-2610-4958-88bb-b4115c92e744"
+    },
+    "time": 1780316758665,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/T1WdHLHgM1"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "ConnorCogged",
+      "uniqueId": "d56007ec-2610-4958-88bb-b4115c92e744"
+    },
+    "time": 1780316178459,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/YN0A4JhQBX"
+    }
+  }
+]

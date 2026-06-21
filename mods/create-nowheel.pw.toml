@@ -1,0 +1,13 @@
+name = "Create: Nowheel"
+filename = "nowheel-1.0.6+1.21.1neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "9ee9731afc7dcb5fc2b5366709f6ddc656c6c64f"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8132019
+project-id = 1544167

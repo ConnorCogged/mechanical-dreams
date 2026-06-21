@@ -1,0 +1,13 @@
+name = "Aeronautic Additions and ChunkLoader"
+filename = "aeronauticadditions_neoforge_mc_1.21.1-1.1.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0c396246ba938f5b927daaef8e2c700485f8d833"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8069394
+project-id = 1526662

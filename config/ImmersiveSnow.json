@@ -1,0 +1,8 @@
+{
+  "minChunksToProcessPerTick": 1,
+  "maxChunksToProcessPerTick": 10,
+  "memoryDuration": 600,
+  "enableBetterDaysChangingDayNightCycle": true,
+  "betterDaysDaySpeed": 1.0,
+  "betterDaysNightSpeed": 1.0
+}

@@ -1,0 +1,69 @@
+[physicsApi]
+	#Master switch for Waterworks physics API.
+	enabled = true
+	#Enable current sampling and current motion.
+	currentsEnabled = true
+	#Enable wind sampling and wind motion.
+	windEnabled = true
+	#Enable water pressure sampling.
+	pressureEnabled = true
+	#Enable dry-interior occlusion API checks.
+	waterOcclusionEnabled = true
+	#Give sealed air compartments a slight buoyancy assist.
+	compartmentBuoyancyEnabled = true
+	#Allow over-pressured sealed compartments to fail catastrophically.
+	compartmentFailureEnabled = true
+	#Enable deterministic Waterworks wave sampling.
+	wavesEnabled = true
+	#Base current speed in blocks/sec.
+	# Default: 0.9
+	# Range: 0.0 ~ 8.0
+	currentsBaseSpeed = 0.9
+	#Base wind speed in blocks/sec.
+	# Default: 1.5
+	# Range: 0.0 ~ 16.0
+	windBaseSpeed = 1.5
+	#Extra pressure per block below sea level.
+	# Default: 0.08
+	# Range: 0.0 ~ 2.0
+	pressureDepthScale = 0.08
+	#Maximum upward boost from sealed air compartments.
+	# Default: 0.0035
+	# Range: 0.0 ~ 0.02
+	compartmentBuoyancyLift = 0.0035
+	#Pressure threshold where sealed compartments start failing.
+	# Default: 1.95
+	# Range: 1.0 ~ 16.0
+	compartmentFailurePressure = 1.95
+	#Base blast strength for compartment implosions.
+	# Default: 3.75
+	# Range: 0.0 ~ 16.0
+	compartmentFailureExplosionPower = 3.75
+	#Base visual/sample wave height in blocks.
+	# Default: 0.85
+	# Range: 0.0 ~ 8.0
+	waveHeight = 0.85
+	#Horizontal wave scale. Higher values make waves broader.
+	# Default: 1.0
+	# Range: 0.1 ~ 12.0
+	waveHorizontalScale = 1.0
+	#Wave animation speed multiplier.
+	# Default: 1.0
+	# Range: 0.0 ~ 8.0
+	waveSpeed = 1.0
+	#Number of deterministic wave octaves to sample.
+	# Default: 13
+	# Range: 1 ~ 24
+	waveIterations = 13
+	#Minimum sealed compartment volume before pressure failures are considered.
+	# Default: 24
+	# Range: 1 ~ 4096
+	compartmentFailureMinVolume = 24
+	#Cooldown between pressure failures in the same compartment.
+	# Default: 120
+	# Range: 20 ~ 24000
+	compartmentFailureCooldownTicks = 120
+	#Deterministic wave seed. Clients with the same seed see the same waves.
+	# Default: 1337
+	# Range: > -2147483648
+	waveSeed = 1337

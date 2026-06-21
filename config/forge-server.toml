@@ -1,0 +1,3 @@
+[server]
+    removeErroringEntities = true
+    removeErroringBlockEntities = true

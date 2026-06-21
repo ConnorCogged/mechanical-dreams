@@ -1,0 +1,13 @@
+[Visuals]
+	#Intensity multiplier for camera shake near engines
+	# Default: 0.5
+	# Range: 0.0 ~ 5.0
+	shakeIntensity = 0.5
+	#Radius in blocks where camera shake is felt
+	# Default: 8.0
+	# Range: 1.0 ~ 64.0
+	shakeRadius = 8.0
+	#Enable automatic render distance adjustment based on altitude
+	enableDynamicRenderDistance = true
+	#Show the Cosmonautics debug overlay (Alt/Speed/etc)
+	showDebugOverlay = false

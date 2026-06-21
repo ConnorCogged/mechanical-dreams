@@ -1,0 +1,13 @@
+name = "Mechanical Dreams"
+author = "ConnorCogged"
+version = "2.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "1c3ec374db923b18e1508036e41ec46a8b65561bb7f16bdadcae7a868d6c66e1"
+
+[versions]
+minecraft = "1.21.1"
+neoforge = "21.1.233"

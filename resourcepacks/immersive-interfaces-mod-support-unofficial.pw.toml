@@ -1,0 +1,13 @@
+name = "Immersive Interfaces - Mod Support Unofficial"
+filename = "§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "7eda16172a512675e276adbee0a1e065d9ef1e85"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7893613
+project-id = 1292547

@@ -1,0 +1,4 @@
+#DirectGPU Server Configuration
+[server]
+	#Clear linked DirectGPU displays when a computer shuts down/detaches
+	clearDisplaysOnDetach = true

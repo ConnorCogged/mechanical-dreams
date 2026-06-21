@@ -1,0 +1,10 @@
+#DirectGPU Client Configuration
+[client]
+	#Enable DirectGPU logging output
+	enableLogging = false
+	#Replay compact DirectGPU draw commands on a dedicated client worker instead of duplicating simple raster work on the CC/server side
+	clientAcceleratedRendering = true
+	#Max security camera captures to attempt per rendered frame
+	# Default: 2
+	# Range: 1 ~ 8
+	maxCameraCapturesPerFrame = 2

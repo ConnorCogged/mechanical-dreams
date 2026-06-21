@@ -1,0 +1,13 @@
+name = "CCSecureBoot"
+filename = "CCSecureBoot-1.0.2-neoforge-1.21.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/8S3qbPSr/versions/dGeakQRM/CCSecureBoot-1.0.2-neoforge-1.21.1.jar"
+hash-format = "sha512"
+hash = "b4342b73a64b7b7166883832af73705720e3e027e04fbcdaf813135454ed1aa6ced84f623342092f7b4941fa382ec0f6235485629130cf3fcb3cb6b9d3e78a4b"
+
+[update]
+[update.modrinth]
+mod-id = "8S3qbPSr"
+version = "dGeakQRM"

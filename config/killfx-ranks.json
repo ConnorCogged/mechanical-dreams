@@ -1,0 +1,185 @@
+{
+  "discordBotToken": "",
+  "discordGuildId": "",
+  "webhookUrl": "",
+  "headAdminRoleId": "1452127018929094897",
+  "syncIntervalSeconds": 300,
+  "trackedCommands": [
+    "invsee",
+    "kill",
+    "teleport",
+    "tp",
+    "kick",
+    "ban",
+    "mute"
+  ],
+  "ranks": {
+    "member": {
+      "displayName": "Member",
+      "nameFormat": "§7{name}§r",
+      "power": 1,
+      "discordRoleId": "",
+      "permissions": [],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "unsec": {
+      "displayName": "UNSEC",
+      "nameFormat": "§9[§b§lUNSEC§9]§r §3{name}§r",
+      "power": 50,
+      "discordRoleId": "",
+      "permissions": [],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "unsecgen": {
+      "displayName": "UNSECGEN",
+      "nameFormat": "§1[§9§lUNSECGEN§1]§r §9{name}§r",
+      "power": 75,
+      "discordRoleId": "",
+      "permissions": [],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "mace_master": {
+      "displayName": "MACE MASTER",
+      "nameFormat": "§c[§6M§eA§aC§3E §5M§cA§6S§eT§aE§3R§9]§r {name}§r",
+      "power": 5,
+      "discordRoleId": "",
+      "permissions": [],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "supporter": {
+      "displayName": "Supporter",
+      "nameFormat": "§2[§a§lSUPPORTER§2]§r {name}§r",
+      "power": 2,
+      "discordRoleId": "1483172149350105331",
+      "permissions": [
+        "command.hat",
+        "killfx.cosmeticaccess",
+        "command.cosmetic",
+        "command.cosmetic.current",
+        "command.cosmetic.equip",
+        "command.cosmetic.list",
+        "command.cosmetic.unequip"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "super_supporter": {
+      "displayName": "Super Supporter",
+      "nameFormat": "§4[§c§lSuper Supporter§4]§r {name}§r",
+      "power": 3,
+      "discordRoleId": "1483172192698237088",
+      "permissions": [
+        "command.hat",
+        "killfx.cosmeticaccess",
+        "killfx.killfx",
+        "command.killfx",
+        "command.killfx.current",
+        "command.killfx.equip",
+        "command.killfx.list",
+        "command.killfx.preview",
+        "command.killfx.unequip",
+        "command.cosmetic",
+        "command.cosmetic.current",
+        "command.cosmetic.equip",
+        "command.cosmetic.list",
+        "command.cosmetic.unequip"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "jira_supporter": {
+      "displayName": "Jira Support - White Death",
+      "nameFormat": "§3[§bW§fh§3i§bt§fe §bD§fe§3a§bt§fh§3]§r {name}§r",
+      "power": 4,
+      "discordRoleId": "",
+      "permissions": [
+        "command.hat"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "owen_supporter": {
+      "displayName": "Owen Support - Fighter Jet",
+      "nameFormat": "§7[§8F§1i§9g§bh§ft§7e§8r §9J§be§ft§7] {name}§r",
+      "power": 4,
+      "discordRoleId": "",
+      "permissions": [
+        "command.hat"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "gael_supporter": {
+      "displayName": "Gael Support - Thai Citizen",
+      "nameFormat": "§c[§fT§9h§fa§ci §fC§9i§ft§ci§cz§fe§9n§f] {name}§r",
+      "power": 4,
+      "discordRoleId": "",
+      "permissions": [
+        "command.hat"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "patis_supporter": {
+      "displayName": "Patis Support - Mouse Industries",
+      "nameFormat": "§f[§7M§8o§7u§fs§7e §7I§fn§7d§8u§7s§ft§7r§8i§7e§fs§7] {name}§r",
+      "power": 4,
+      "discordRoleId": "",
+      "permissions": [
+        "command.hat"
+      ],
+      "isStaff": false,
+      "playerUuids": []
+    },
+    "staff": {
+      "displayName": "Staff",
+      "nameFormat": "§e[STAFF] §e{name}§r",
+      "power": 200,
+      "discordRoleId": "1424692930320273424",
+      "permissions": [
+        "command.staffmode"
+      ],
+      "isStaff": true,
+      "playerUuids": []
+    },
+    "active_staff": {
+      "displayName": "Active Staff",
+      "nameFormat": "§6§l[⚡ STAFF]§r §e{name}§r",
+      "power": 250,
+      "discordRoleId": "",
+      "permissions": [
+        "command.kick",
+        "command.ban",
+        "command.mute",
+        "command.unmute",
+        "command.tp",
+        "command.teleport",
+        "command.invsee",
+        "command.teleport_last",
+        "command.near",
+        "command.vanish",
+        "command.god",
+        "command.gamemode",
+        "command.staffmode"
+      ],
+      "isStaff": true,
+      "playerUuids": []
+    },
+    "head_admin": {
+      "displayName": "Head Admin",
+      "nameFormat": "§4[§c§lHEAD ADMIN§4]§r §c{name}§r",
+      "power": 1000,
+      "discordRoleId": "1452127018929094897",
+      "permissions": [
+        "*"
+      ],
+      "isStaff": true,
+      "playerUuids": []
+    }
+  },
+  "manualOverrides": {}
+}

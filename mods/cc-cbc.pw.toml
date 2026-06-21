@@ -1,0 +1,16 @@
+name = "CC:CBC"
+filename = "cc-cbc-v1.1-1.21.1-neoforge.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "07030b7af53641d231d6409b6c042843f8b8720c"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8065603
+project-id = 1535866
+
+[option]
+optional = true

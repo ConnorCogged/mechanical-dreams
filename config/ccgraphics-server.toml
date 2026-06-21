@@ -1,0 +1,6 @@
+#Allow graphics mode on non-color (standard) computers with grayscale rendering.
+#When false (default), graphics mode is blocked on non-color computers (CraftOS-PC compatible).
+allow_grayscale_graphics = false
+#Compression algorithm for graphics data sent over the network.
+#Allowed Values: RAW, LZ4, LZ4_DELTA, LZ4_DIFF, LZ4_ADIFF
+compression = "LZ4_DIFF"

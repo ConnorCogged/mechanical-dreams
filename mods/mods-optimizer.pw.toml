@@ -1,0 +1,13 @@
+name = "Mods Optimizer"
+filename = "mods_optimizer-neoforge-1.21.1-4.3.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "0271ce79456854fc6b5aba572f94d54cdc3fbac1"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7330072
+project-id = 947247

@@ -1,0 +1,13 @@
+name = "CC: Graphics"
+filename = "ccgraphics-1.21.1-forge-0.1.5.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "607ff38044dfeba3ee7b78044d0efb92ff6c395e"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7930141
+project-id = 1512309

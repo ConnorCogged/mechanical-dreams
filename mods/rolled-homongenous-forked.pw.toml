@@ -1,0 +1,13 @@
+name = "Rolled Homongenous: Forked"
+filename = "rha-1.0.3-1.21.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "914deb975fca8852caf760e8ec5c947cda2244cb"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7982655
+project-id = 1524036

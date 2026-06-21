@@ -1,0 +1,41 @@
+[aabb_fix]
+	#Enable AABB coordinate fixing for abnormal values
+	enableAABBFix = true
+	#Maximum safe coordinate value (default: 10000000)
+	# Default: 1.0E7
+	# Range: 1000.0 ~ 1.0E8
+	maxSafeCoordinate = 1.0E7
+	#Log when AABBs are fixed (useful for debugging)
+	logFixedAABBs = false
+
+[log_suppression]
+	#Suppress Sable AABB error logs
+	enableLogSuppression = true
+
+[create_compatibility]
+	#Enable fix for Create turntable/bellows sublevel teleportation
+	enableCreateFix = true
+	#Maximum safe teleport distance in blocks (default: 1000)
+	# Default: 1000.0
+	# Range: 10.0 ~ 10000.0
+	maxSafeTeleportDistance = 1000.0
+	#Log when abnormal teleports are blocked
+	logBlockedTeleports = true
+
+[entity_aabb_sizes]
+	#Player AABB width when fixed (default: 0.6)
+	# Default: 0.6
+	# Range: 0.1 ~ 2.0
+	playerAABBWidth = 0.6
+	#Player AABB height when fixed (default: 1.8)
+	# Default: 1.8
+	# Range: 0.5 ~ 3.0
+	playerAABBHeight = 1.8
+	#Vehicle AABB width when fixed (default: 1.0)
+	# Default: 1.0
+	# Range: 0.5 ~ 5.0
+	vehicleAABBWidth = 1.0
+	#Vehicle AABB height when fixed (default: 1.0)
+	# Default: 1.0
+	# Range: 0.5 ~ 3.0
+	vehicleAABBHeight = 1.0
