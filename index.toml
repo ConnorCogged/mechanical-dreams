@@ -1664,7 +1664,7 @@ hash = "a113dab28bc04b821e09769135ced59d6895f2ee4ce8bf2f0b2bef166ab38608"
 
 [[files]]
 file = "mods/continents.pw.toml"
-hash = "b11978df6a004238633895c2ca6aa231793a344ac012833e4de74b078edcc48d"
+hash = "27e743954f5ccc361b6cf54114582cf9d42e6f6b6ea227ee7ba2c90a26ef3cbb"
 metafile = true
 
 [[files]]
@@ -2021,7 +2021,7 @@ metafile = true
 
 [[files]]
 file = "mods/noisiumforked.pw.toml"
-hash = "9c93eb7b597436c3f71fd4c19121633146776c50b7c9b3b06c7dc9441d722da9"
+hash = "33dde50a78c51c9c2f47b2755e1a7e8d19430112a2c3b53c399c3800dfc7903f"
 metafile = true
 
 [[files]]
@@ -2170,12 +2170,12 @@ metafile = true
 
 [[files]]
 file = "mods/tectonic.pw.toml"
-hash = "cbbc06cd921b629776f574566af0b5dbd58819fad7513cfaac2967d3fb750845"
+hash = "ef6151cbca9ee086961cd3a40b7076f066ec0618b123d830d249d4fc9375df59"
 metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
+hash = "6c8d728f2e4c1e92b3f84219df52c173ee2f54b57dfe33270679e26af9b89afb"
 metafile = true
 
 [[files]]

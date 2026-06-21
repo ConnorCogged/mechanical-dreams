@@ -1,6 +1,6 @@
 name = "Continents"
 filename = "Continents_26.1_v1.1.13.jar"
-side = "both"
+side = "server"
 
 [download]
 hash-format = "sha1"
