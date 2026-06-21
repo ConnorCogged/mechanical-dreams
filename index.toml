@@ -791,10 +791,6 @@ file = "config/submarine_hull.json"
 hash = "21d58340533104c5b6ea58473bca5105ff386ceb587e466c27875ea921002097"
 
 [[files]]
-file = "config/submarine_hull.json.bak.1781962893"
-hash = "2825d82287f28f43b286740ea182e87d0ec6f0f00a2ed9a68e00f60100c331b1"
-
-[[files]]
 file = "config/supplementaries-client.toml"
 hash = "9bf9e56551d526a377575fbe923ef2ade7a4ef9e20d9cd6a4755ef1dfaea4d4d"
 
@@ -2053,7 +2049,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "0c3d0947ef45442b3877431091706c4b0d8a1b94a2e70cf95559995e6be6e2e5"
+hash = "d04059f7a1a0ead330413abc126ff943772fb4406afda02acacc0faca90c7298"
 metafile = true
 
 [[files]]
