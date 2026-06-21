@@ -11,6 +11,7 @@
  *   node sync.js --build
  *   node sync.js --upload
  *   node sync.js --build --upload [--mirror] [--dry-run]
+ *   node sync.js --deploy [--dry-run]
  *   node sync.js --help
  *
  * See README.md for full docs.
@@ -22,6 +23,7 @@ const path = require('path');
 const { build, STAGE_DIR } = require('./build');
 const FtpClient = require('./ftpClient');
 const SftpClient = require('./sftpClient');
+const { deploy } = require('./deploy');
 
 // Directories synced to the server. config/ is only included with --with-config
 // (configs can hold secrets and are otherwise managed by hand on the server).
@@ -37,6 +39,7 @@ function parseArgs(argv) {
   const flags = {
     build: false,
     upload: false,
+    deploy: false,
     mirror: false,
     dryRun: false,
     withConfig: false,
@@ -49,6 +52,9 @@ function parseArgs(argv) {
         break;
       case '--upload':
         flags.upload = true;
+        break;
+      case '--deploy':
+        flags.deploy = true;
         break;
       case '--mirror':
         flags.mirror = true;
@@ -82,8 +88,13 @@ OPTIONS
   --build      Build the server-side pack into ${path.relative(process.cwd(), STAGE_DIR) || '.server-stage'}/
                (runs packwiz-installer with "-s server"; downloads the
                bootstrap jar if missing).
-  --upload     Upload the staged mods/ and config/ to the remote server,
-               skipping files whose size + modified-time already match.
+  --deploy     RECOMMENDED efficient path. Builds mods-only staging, then via
+               the Pterodactyl client API uploads ONLY changed jars as one zip,
+               decompresses it server-side, prunes removed jars, and verifies.
+               Uses the "pterodactyl" config block. Implies a build.
+  --upload     FALLBACK path (FTP/SFTP). Upload the staged mods/ (and config/
+               with --with-config) to the remote server, skipping files whose
+               size + modified-time already match.
   --mirror     With --upload: delete remote files/dirs that no longer exist
                locally (true mirror of the staging dir). Destructive.
   --with-config  Include config/ in build + upload. OFF by default: configs can
@@ -93,28 +104,35 @@ OPTIONS
   -h, --help   Show this help.
 
 EXAMPLES
-  node sync.js --build --upload              # mods only (safe default)
-  node sync.js --build --upload --mirror     # mods only + prune stale remote mods
+  node sync.js --deploy --dry-run            # preview the API deploy diff
+  node sync.js --deploy                      # efficient deploy (recommended)
+  node sync.js --build --upload              # FTP/SFTP fallback (mods only)
+  node sync.js --build --upload --mirror     # fallback + prune stale remote mods
   node sync.js --build --upload --with-config  # one-time: also push config/
-  node sync.js --upload --dry-run            # preview
+  node sync.js --upload --dry-run            # preview the FTP/SFTP upload
 
 NOTE
   Shaders, resource packs and options.txt are never fetched or uploaded.
   config/ is excluded unless --with-config is given (it may contain secrets).
+  --deploy handles only mods/ (zip + decompress); use --upload --with-config for
+  the one-time config push.
 
 CONFIG
-  Reads FTP/SFTP settings from config.json (gitignored).
+  Reads settings from config.json (gitignored).
   Copy config.example.json -> config.json and fill it in.
+  --deploy  uses the "pterodactyl" block (panelUrl, apiKey, serverId, ...).
+  --upload  uses the FTP/SFTP fields (protocol, host, user, password, ...).
 `);
 }
 
 // --- Config ----------------------------------------------------------------
 
-function loadConfig() {
+/** Read + parse config.json, stripping "//"-prefixed comment keys. */
+function readConfig() {
   if (!fs.existsSync(CONFIG_PATH)) {
     throw new Error(
       `Missing config.json at ${CONFIG_PATH}.\n` +
-        `Copy config.example.json to config.json and fill in your FTP/SFTP details.`
+        `Copy config.example.json to config.json and fill it in.`
     );
   }
   let raw;
@@ -124,11 +142,27 @@ function loadConfig() {
     throw new Error(`config.json is not valid JSON: ${err.message}`);
   }
 
-  // Strip "//"-prefixed comment keys used in the example file.
+  // Strip "//"-prefixed comment keys used in the example file (top level and
+  // one level deep, e.g. inside the "pterodactyl" object).
   const cfg = {};
   for (const [k, v] of Object.entries(raw)) {
-    if (!k.startsWith('//')) cfg[k] = v;
+    if (k.startsWith('//')) continue;
+    if (v && typeof v === 'object' && !Array.isArray(v)) {
+      const inner = {};
+      for (const [ik, iv] of Object.entries(v)) {
+        if (!ik.startsWith('//')) inner[ik] = iv;
+      }
+      cfg[k] = inner;
+    } else {
+      cfg[k] = v;
+    }
   }
+  return cfg;
+}
+
+/** Validate + normalize the FTP/SFTP config used by the --upload path. */
+function loadConfig() {
+  const cfg = readConfig();
 
   if (!cfg.host) throw new Error('config.json: "host" is required.');
   if (!cfg.user) throw new Error('config.json: "user" is required.');
@@ -141,6 +175,23 @@ function loadConfig() {
   }
   if (!cfg.remoteBase) cfg.remoteBase = '/';
   return cfg;
+}
+
+/** Validate + normalize the "pterodactyl" config block used by --deploy. */
+function loadPteroConfig() {
+  const cfg = readConfig();
+  const p = cfg.pterodactyl;
+  if (!p || typeof p !== 'object') {
+    throw new Error(
+      'config.json: a "pterodactyl" object is required for --deploy.\n' +
+        'See config.example.json for the panelUrl / apiKey / serverId fields.'
+    );
+  }
+  if (!p.panelUrl) throw new Error('config.json: "pterodactyl.panelUrl" is required.');
+  if (!p.apiKey) throw new Error('config.json: "pterodactyl.apiKey" is required.');
+  if (!p.serverId) throw new Error('config.json: "pterodactyl.serverId" is required.');
+  if (!p.remoteModsDir) p.remoteModsDir = 'mods';
+  return p;
 }
 
 // --- Path helpers ----------------------------------------------------------
@@ -390,13 +441,27 @@ async function main() {
     return;
   }
 
-  if (!flags.build && !flags.upload) {
-    console.error('Nothing to do. Specify --build and/or --upload (or --help).');
+  if (!flags.build && !flags.upload && !flags.deploy) {
+    console.error(
+      'Nothing to do. Specify --deploy, --build and/or --upload (or --help).'
+    );
     printHelp();
     process.exitCode = 1;
     return;
   }
 
+  // --- Efficient API deploy (recommended). Builds mods-only staging itself. ---
+  if (flags.deploy) {
+    const pteroCfg = loadPteroConfig();
+    await build({ dryRun: flags.dryRun, withConfig: false });
+    const result = await deploy(pteroCfg, { dryRun: flags.dryRun });
+    if (!flags.dryRun && result && result.verified === false) {
+      process.exitCode = 1;
+    }
+    return;
+  }
+
+  // --- FTP/SFTP fallback path -------------------------------------------------
   if (flags.build) {
     await build({ dryRun: flags.dryRun, withConfig: flags.withConfig });
   }

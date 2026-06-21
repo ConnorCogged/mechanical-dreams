@@ -2,3 +2,5 @@ node_modules/
 config.json
 .env
 .server-stage/
+.deployed.json
+_upload.zip

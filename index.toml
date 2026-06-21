@@ -1878,11 +1878,6 @@ hash = "88c666259f5e45c7ea59da636ba4aa651a6b4f154f4a4472b52725471d06f035"
 metafile = true
 
 [[files]]
-file = "mods/immersive-snow.pw.toml"
-hash = "759ebd337fa67f558a204baef57041ca0392fd206c786a3e7643a5c6b27f4cee"
-metafile = true
-
-[[files]]
 file = "mods/integrated-api.pw.toml"
 hash = "6c32b08de9fe127254e7dfd1bb8bf863d941d910be639012a7ffaa7a6d234c22"
 metafile = true
@@ -2025,11 +2020,6 @@ metafile = true
 [[files]]
 file = "mods/rolled-homongenous-forked.pw.toml"
 hash = "aa6821caebc50542c1d9529fa1ecc615ee0b1c46d9649940c3731ad42f240107"
-metafile = true
-
-[[files]]
-file = "mods/sable-collision-damage-create-aeronautics.pw.toml"
-hash = "caa6aa12cf0ef9a36792d5ab6b25e88a1ced960723f80c4d9603291bf1e45aa1"
 metafile = true
 
 [[files]]

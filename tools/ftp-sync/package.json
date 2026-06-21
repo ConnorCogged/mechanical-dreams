@@ -10,9 +10,11 @@
   "scripts": {
     "build": "node sync.js --build",
     "upload": "node sync.js --upload",
-    "sync": "node sync.js --build --upload"
+    "sync": "node sync.js --build --upload",
+    "deploy": "node sync.js --deploy"
   },
   "dependencies": {
+    "archiver": "^7.0.1",
     "basic-ftp": "^5.0.5",
     "ssh2-sftp-client": "^11.0.0"
   }
