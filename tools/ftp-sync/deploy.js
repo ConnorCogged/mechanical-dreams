@@ -99,14 +99,22 @@ function writeManifest(required) {
  * @param {Set<string>} remoteNames jar names currently on the server
  * @returns {{ toUpload:string[], toRemove:string[], unchanged:string[] }}
  */
-function computeDiff(required, deployed, remoteNames) {
+function computeDiff(required, deployed, remoteNames, localSizes, remoteSizes) {
   const toUpload = [];
   const unchanged = [];
+  localSizes = localSizes || {};
+  remoteSizes = remoteSizes || new Map();
 
   for (const name of Object.keys(required)) {
     const changed = required[name] !== deployed[name]; // also true if not in deployed
     const missingOnServer = !remoteNames.has(name);
-    if (changed || missingOnServer) toUpload.push(name);
+    // Re-upload if the remote file's size differs from local — catches truncated
+    // or corrupted jars (e.g. an interrupted upload: "zip END header not found").
+    const sizeMismatch =
+      remoteNames.has(name) &&
+      remoteSizes.has(name) &&
+      remoteSizes.get(name) !== localSizes[name];
+    if (changed || missingOnServer || sizeMismatch) toUpload.push(name);
     else unchanged.push(name);
   }
 
@@ -225,7 +233,9 @@ async function deploy(pteroCfg, flags) {
   const { toUpload, toRemove, unchanged } = computeDiff(
     required,
     deployed,
-    remoteNames
+    remoteNames,
+    localSizes,
+    remoteSizes
   );
 
   console.log('');
