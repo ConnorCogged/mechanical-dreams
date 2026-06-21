@@ -138,7 +138,9 @@ function computeDiff(required, deployed, remoteNames) {
 function zipJars(names) {
   return new Promise((resolve, reject) => {
     const output = fs.createWriteStream(UPLOAD_ZIP_PATH);
-    const archive = archiver('zip', { zlib: { level: 9 } });
+    // STORE (no compression): jars are already ZIP-compressed, so recompressing
+    // wastes large amounts of CPU for ~0 size gain. Store mode zips near-instantly.
+    const archive = archiver('zip', { store: true });
 
     output.on('close', () => resolve(archive.pointer()));
     output.on('error', reject);
