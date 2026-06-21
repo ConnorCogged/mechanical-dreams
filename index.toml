@@ -5,14 +5,6 @@ file = ".nojekyll"
 hash = "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
 
 [[files]]
-file = "CREDITS.md"
-hash = "0b80c71a171e63d6bd5b5e4d1b53375f01b218784d4ff61bd3c0f71fb3e13315"
-
-[[files]]
-file = "README.md"
-hash = "12dcadc3a614ef1953918776a172a2c90d2d1208432b1b7cf78d18fb59d5028b"
-
-[[files]]
 file = "complementary-reimagined.pw.toml"
 hash = "d8cd6b864121a8cc6900327701be1cfa7d975a092993ad5b98928a209e44d561"
 metafile = true
@@ -209,10 +201,6 @@ hash = "806dc2002f95b1bcd16dec843051abc513576a1986ea1931d8c2cc82aef201c7"
 [[files]]
 file = "config/crash_assistant/config.toml"
 hash = "becd819bd87b69fc52ecc5cf37cd513c9498236bafd125f00496115d27c7b745"
-
-[[files]]
-file = "config/crash_assistant/crash_assistant_localization_overrides/README.md"
-hash = "943e1c3672b8a03f27519b357091133205119c7b3db2fcc4c25b597cabf8926d"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
@@ -2234,16 +2222,8 @@ file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/Eupho
 hash = "1e88c99b7ef6453d4f76a3641a7ccad61379f739b9468d0198d9ed3600776945"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/Made for Complementary Shaders r5.8.1.txt"
 hash = "e9ee3ecad631cdfeac2d7da7505e7a675c17e0ca557f3a3ea990b5ef440ad9c3"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/addedMods.md"
-hash = "bc9420b1263ed0e2a63951bb6e5dc7244b3a873dfecc2913e862605c49aace16"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/block.properties"
@@ -2294,20 +2274,12 @@ file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shade
 hash = "1b3166893e6967e323add06addabdc9b6ea28f17101e45d1ae0abbed31dfef3d"
 
 [[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.13+/index.md"
-hash = "f706eec9aafcf9e0d32be68a5441a1035d80d6a06f956e3297575a36ca4c4f5e"
-
-[[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.7.10/block.properties"
 hash = "3a09ad6138174628aeabb6ec6a52af00c6d02efda9e9a8deaa98d9134437ccfc"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.8+/block.properties"
 hash = "b2d2eddf2ca93d2eb8ebf91a3f2aea695b9e4ec047268f4442f01543565663bd"
-
-[[files]]
-file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/README.md"
-hash = "eda358cc7182806f89bd6badb6ae0d14395327506f760113bef8bf29862fa72b"
 
 [[files]]
 file = "shaderpacks/ComplementaryReimagined_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/instructions/readme.properties"
@@ -4698,16 +4670,8 @@ file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/Euphoria
 hash = "1e88c99b7ef6453d4f76a3641a7ccad61379f739b9468d0198d9ed3600776945"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/Made for Complementary Shaders r5.8.1.txt"
 hash = "e9ee3ecad631cdfeac2d7da7505e7a675c17e0ca557f3a3ea990b5ef440ad9c3"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/addedMods.md"
-hash = "bc9420b1263ed0e2a63951bb6e5dc7244b3a873dfecc2913e862605c49aace16"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/block.properties"
@@ -4758,20 +4722,12 @@ file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/
 hash = "1b3166893e6967e323add06addabdc9b6ea28f17101e45d1ae0abbed31dfef3d"
 
 [[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.13+/index.md"
-hash = "f706eec9aafcf9e0d32be68a5441a1035d80d6a06f956e3297575a36ca4c4f5e"
-
-[[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.7.10/block.properties"
 hash = "3a09ad6138174628aeabb6ec6a52af00c6d02efda9e9a8deaa98d9134437ccfc"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/1.8+/block.properties"
 hash = "b2d2eddf2ca93d2eb8ebf91a3f2aea695b9e4ec047268f4442f01543565663bd"
-
-[[files]]
-file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/README.md"
-hash = "eda358cc7182806f89bd6badb6ae0d14395327506f760113bef8bf29862fa72b"
 
 [[files]]
 file = "shaderpacks/ComplementaryUnbound_r5.8.1 + EuphoriaPatches_1.9.3/shaders/blockProperties/instructions/readme.properties"
@@ -7162,16 +7118,8 @@ file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/EuphoriaP
 hash = "b2ff5826e1d6a7d53a0b95c437f8c11d273ba2fd422bfd3c8858cfd97dd18439"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/Made for Complementary Shaders r5.7.1.txt"
 hash = "de5cc55e7420fa118038e6bebccea3570868420c56fda22539d96b433eab6678"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/addedMods.md"
-hash = "733c2a5b31fc9d453631cfdd719e5371818283b56f95443be89e7d779aeaa7a7"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/shaders/block.properties"
@@ -7220,10 +7168,6 @@ hash = "889b752f4079f05dc69cf404a49130f028bc2a22219393c5f20516ecee34afb4"
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.13+/block.5000-10081.properties"
 hash = "7f1aff06747e83bec299ac61db4122e7000538db6bd1b6b67c76820fac5472f3"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.13+/index.md"
-hash = "9a8e668408926a05962a2f98b375635e77cc4c2fd1a596ebc11906130baa39c9"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.7.10/block.properties"
@@ -9362,16 +9306,8 @@ file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/EuphoriaP
 hash = "1e88c99b7ef6453d4f76a3641a7ccad61379f739b9468d0198d9ed3600776945"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/Made for Complementary Shaders r5.8.1.txt"
 hash = "e9ee3ecad631cdfeac2d7da7505e7a675c17e0ca557f3a3ea990b5ef440ad9c3"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/addedMods.md"
-hash = "bc9420b1263ed0e2a63951bb6e5dc7244b3a873dfecc2913e862605c49aace16"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/block.properties"
@@ -9422,20 +9358,12 @@ file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/b
 hash = "1b3166893e6967e323add06addabdc9b6ea28f17101e45d1ae0abbed31dfef3d"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.13+/index.md"
-hash = "f706eec9aafcf9e0d32be68a5441a1035d80d6a06f956e3297575a36ca4c4f5e"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.7.10/block.properties"
 hash = "3a09ad6138174628aeabb6ec6a52af00c6d02efda9e9a8deaa98d9134437ccfc"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.8+/block.properties"
 hash = "b2d2eddf2ca93d2eb8ebf91a3f2aea695b9e4ec047268f4442f01543565663bd"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/blockProperties/README.md"
-hash = "eda358cc7182806f89bd6badb6ae0d14395327506f760113bef8bf29862fa72b"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryReimagined_r5.8.1 + EP_1.9.2/shaders/blockProperties/instructions/readme.properties"
@@ -11822,16 +11750,8 @@ file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/EuphoriaPatc
 hash = "b2ff5826e1d6a7d53a0b95c437f8c11d273ba2fd422bfd3c8858cfd97dd18439"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/Made for Complementary Shaders r5.7.1.txt"
 hash = "de5cc55e7420fa118038e6bebccea3570868420c56fda22539d96b433eab6678"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/addedMods.md"
-hash = "733c2a5b31fc9d453631cfdd719e5371818283b56f95443be89e7d779aeaa7a7"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/shaders/block.properties"
@@ -11880,10 +11800,6 @@ hash = "889b752f4079f05dc69cf404a49130f028bc2a22219393c5f20516ecee34afb4"
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.13+/block.5000-10081.properties"
 hash = "7f1aff06747e83bec299ac61db4122e7000538db6bd1b6b67c76820fac5472f3"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.13+/index.md"
-hash = "9a8e668408926a05962a2f98b375635e77cc4c2fd1a596ebc11906130baa39c9"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.7.1 + EP_1.8.6/shaders/blockProperties/1.7.10/block.properties"
@@ -14026,16 +13942,8 @@ file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/EuphoriaPatc
 hash = "1e88c99b7ef6453d4f76a3641a7ccad61379f739b9468d0198d9ed3600776945"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/InformationEuphoriaPatches.md"
-hash = "936d311eccf07dcb3668971a7136fde6afa8e78c41b91ed581c981422c835fdd"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/Made for Complementary Shaders r5.8.1.txt"
 hash = "e9ee3ecad631cdfeac2d7da7505e7a675c17e0ca557f3a3ea990b5ef440ad9c3"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/addedMods.md"
-hash = "bc9420b1263ed0e2a63951bb6e5dc7244b3a873dfecc2913e862605c49aace16"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/block.properties"
@@ -14086,20 +13994,12 @@ file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/bloc
 hash = "1b3166893e6967e323add06addabdc9b6ea28f17101e45d1ae0abbed31dfef3d"
 
 [[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.13+/index.md"
-hash = "f706eec9aafcf9e0d32be68a5441a1035d80d6a06f956e3297575a36ca4c4f5e"
-
-[[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.7.10/block.properties"
 hash = "3a09ad6138174628aeabb6ec6a52af00c6d02efda9e9a8deaa98d9134437ccfc"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/blockProperties/1.8+/block.properties"
 hash = "b2d2eddf2ca93d2eb8ebf91a3f2aea695b9e4ec047268f4442f01543565663bd"
-
-[[files]]
-file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/blockProperties/README.md"
-hash = "eda358cc7182806f89bd6badb6ae0d14395327506f760113bef8bf29862fa72b"
 
 [[files]]
 file = "shaderpacks/Outdated ComplementaryUnbound_r5.8.1 + EP_1.9.2/shaders/blockProperties/instructions/readme.properties"

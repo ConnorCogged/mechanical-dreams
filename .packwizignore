@@ -1,2 +1,6 @@
 dist/
 tools/
+*.md
+.gitattributes
+.gitignore
+.packwizignore
