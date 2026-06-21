@@ -32,6 +32,11 @@ const BOOTSTRAP_JAR = 'packwiz-installer-bootstrap.jar';
 // Staging dir lives next to this script: tools/ftp-sync/.server-stage/
 const STAGE_DIR = path.join(__dirname, '.server-stage');
 
+// Client-only asset folders a dedicated server never needs. packwiz-installer
+// downloads these raw override files regardless of "--side server", so we prune
+// them from the staging dir after building — they are never synced to the server.
+const PRUNE_DIRS = ['shaderpacks', 'resourcepacks'];
+
 // --- Helpers ---------------------------------------------------------------
 
 /**
@@ -176,6 +181,16 @@ async function build({ dryRun }) {
 
   console.log('=== BUILD complete ===');
   console.log('');
+
+  // Prune client-only asset folders (resource packs / shader packs) — the server
+  // does not need them, so they must not be part of the sync.
+  for (const dir of PRUNE_DIRS) {
+    const p = path.join(STAGE_DIR, dir);
+    if (fs.existsSync(p)) {
+      fs.rmSync(p, { recursive: true, force: true });
+      console.log(`Pruned client-only ${dir}/ from staging (not required on server)`);
+    }
+  }
 
   // Report what we produced.
   for (const dir of ['mods', 'config']) {
