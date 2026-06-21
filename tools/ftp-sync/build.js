@@ -109,7 +109,10 @@ function trimIndex(indexText, keep) {
   const blocks = indexText.slice(start).split(/(?=\[\[files\]\])/);
   const kept = blocks.filter((b) => {
     const m = b.match(/file\s*=\s*"([^"]*)"/);
-    return m && keep.some((p) => m[1].startsWith(p));
+    if (!m) return false;
+    // Skip ".disabled" jars — disabled in the pack, useless dead weight on the server.
+    if (m[1].endsWith('.disabled')) return false;
+    return keep.some((p) => m[1].startsWith(p));
   });
   return header + kept.join('');
 }
