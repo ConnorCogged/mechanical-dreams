@@ -23,8 +23,11 @@ const { build, STAGE_DIR } = require('./build');
 const FtpClient = require('./ftpClient');
 const SftpClient = require('./sftpClient');
 
-// Directories within the staging dir that get synced to the server.
-const SYNC_DIRS = ['mods', 'config'];
+// Directories synced to the server. config/ is only included with --with-config
+// (configs can hold secrets and are otherwise managed by hand on the server).
+function syncDirsFor(withConfig) {
+  return withConfig ? ['mods', 'config'] : ['mods'];
+}
 
 const CONFIG_PATH = path.join(__dirname, 'config.json');
 
@@ -36,6 +39,7 @@ function parseArgs(argv) {
     upload: false,
     mirror: false,
     dryRun: false,
+    withConfig: false,
     help: false,
   };
   for (const arg of argv) {
@@ -48,6 +52,9 @@ function parseArgs(argv) {
         break;
       case '--mirror':
         flags.mirror = true;
+        break;
+      case '--with-config':
+        flags.withConfig = true;
         break;
       case '--dry-run':
         flags.dryRun = true;
@@ -79,13 +86,21 @@ OPTIONS
                skipping files whose size + modified-time already match.
   --mirror     With --upload: delete remote files/dirs that no longer exist
                locally (true mirror of the staging dir). Destructive.
+  --with-config  Include config/ in build + upload. OFF by default: configs can
+               contain secrets and are managed by hand on the server, so they are
+               never fetched or overwritten. Use only for a one-time initial deploy.
   --dry-run    Log every action without changing anything (local or remote).
   -h, --help   Show this help.
 
 EXAMPLES
-  node sync.js --build
-  node sync.js --upload --dry-run
-  node sync.js --build --upload --mirror
+  node sync.js --build --upload              # mods only (safe default)
+  node sync.js --build --upload --mirror     # mods only + prune stale remote mods
+  node sync.js --build --upload --with-config  # one-time: also push config/
+  node sync.js --upload --dry-run            # preview
+
+NOTE
+  Shaders, resource packs and options.txt are never fetched or uploaded.
+  config/ is excluded unless --with-config is given (it may contain secrets).
 
 CONFIG
   Reads FTP/SFTP settings from config.json (gitignored).
@@ -208,7 +223,8 @@ async function listRemoteRecursive(client, remoteRoot, relPrefix, acc) {
 }
 
 async function upload(cfg, flags) {
-  const { dryRun, mirror } = flags;
+  const { dryRun, mirror, withConfig } = flags;
+  const SYNC_DIRS = syncDirsFor(withConfig);
 
   // Sanity: make sure something was built.
   const haveStage = SYNC_DIRS.some((d) =>
@@ -231,6 +247,7 @@ async function upload(cfg, flags) {
   console.log(`protocol  : ${cfg.protocol}`);
   console.log(`host      : ${cfg.host}:${cfg.port || (cfg.protocol === 'sftp' ? 2022 : 21)}`);
   console.log(`remoteBase: ${cfg.remoteBase}`);
+  console.log(`dirs      : ${SYNC_DIRS.join(', ')}${withConfig ? '' : '  (config/ excluded — managed by hand)'}`);
   console.log(`mirror    : ${mirror ? 'ON (will delete stale remote files)' : 'off'}`);
   console.log(`dry-run   : ${dryRun ? 'ON' : 'off'}`);
   console.log('');
@@ -381,7 +398,7 @@ async function main() {
   }
 
   if (flags.build) {
-    await build({ dryRun: flags.dryRun });
+    await build({ dryRun: flags.dryRun, withConfig: flags.withConfig });
   }
 
   if (flags.upload) {

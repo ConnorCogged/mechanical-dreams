@@ -64,7 +64,11 @@ node sync.js --build --upload             # build + push changed files
 node sync.js --build --upload --mirror    # also delete remote files no longer in the pack
 ```
 
-- `--build` stages the server-side pack into `tools/ftp-sync/.server-stage/` (mods/ + config/).
+- `--build` stages **mods only** into `tools/ftp-sync/.server-stage/` (only `mods/` is
+  fetched — shaders, resource packs, options.txt are never downloaded).
+- **config/ is excluded by default** — configs can contain secrets and are managed by hand
+  on the server, so the tool never fetches or overwrites them. Add `--with-config` only for a
+  one-time initial deploy if you want to push the pack's default configs.
 - `--upload` syncs by size+mtime, skipping unchanged files.
 - `--mirror` removes stale remote files (use after you remove mods from the pack).
 
