@@ -1,6 +1,6 @@
 name = "Immersive Interfaces - Mod Support Unofficial"
 filename = "§6Immersive§8_§6Interfaces§8_§6Modded§8.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/zW0OkthM/versions/6QMG8r6x/%C2%A76Immersive%C2%A78_%C2%A76Interfaces%C2%A78_%C2%A76Modded%C2%A78.zip"
@@ -11,3 +11,7 @@ hash = "b8f606a9eccf5864d99e1e0d2a1cabab44dcbe52047f8f92e63dda87ebe0aa3cc2ef1df9
 [update.modrinth]
 mod-id = "zW0OkthM"
 version = "6QMG8r6x"
+
+[option]
+optional = true
+default = false

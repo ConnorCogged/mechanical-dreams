@@ -1,6 +1,6 @@
 name = "(Bee's) Fancy Crops"
 filename = "Fancy Crops v1.3.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7094029
 project-id = 884709
+
+[option]
+optional = true
+default = false

@@ -1,6 +1,6 @@
 name = "Sound Physics Perfected"
 filename = "sound_physics_perfected-1.17.0-alpha+1.21.1-neoforge.jar"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7734849
 project-id = 1328492
+
+[option]
+optional = true
+default = false

@@ -1,2 +1,2 @@
-# Build artifacts — never index these into the modpack
 dist/
+tools/

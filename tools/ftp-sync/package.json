@@ -1,0 +1,19 @@
+{
+  "name": "ftp-sync",
+  "version": "1.0.0",
+  "description": "Build a server-side packwiz pack and sync mods/config to a Minecraft server via FTP or SFTP.",
+  "type": "commonjs",
+  "private": true,
+  "bin": {
+    "ftp-sync": "sync.js"
+  },
+  "scripts": {
+    "build": "node sync.js --build",
+    "upload": "node sync.js --upload",
+    "sync": "node sync.js --build --upload"
+  },
+  "dependencies": {
+    "basic-ftp": "^5.0.5",
+    "ssh2-sftp-client": "^11.0.0"
+  }
+}

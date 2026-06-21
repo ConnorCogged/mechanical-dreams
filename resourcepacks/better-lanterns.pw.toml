@@ -1,6 +1,6 @@
 name = "Better Lanterns"
 filename = "Better+Lanterns+v1.2(mc-1.21).zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/PGGrfcvL/versions/jRAsb6KQ/Better%2BLanterns%2Bv1.2%28mc-1.21%29.zip"
@@ -11,3 +11,7 @@ hash = "e2bbb4555928f418ec5953228fe0200ae62baffa7fc3a189cf3595843061ea76f61465d5
 [update.modrinth]
 mod-id = "PGGrfcvL"
 version = "jRAsb6KQ"
+
+[option]
+optional = true
+default = false

@@ -1,0 +1,23 @@
+{
+  "//": "Copy this file to config.json and fill in real values. config.json is gitignored.",
+  "//protocol": "ftp (default) or sftp. Pterodactyl panels usually expose SFTP on port 2022.",
+  "protocol": "ftp",
+
+  "//host": "Hostname or IP of the server (no protocol prefix).",
+  "host": "ftp.example-host.net",
+
+  "//port": "FTP plain/explicit-TLS is usually 21. Pterodactyl SFTP is usually 2022.",
+  "port": 21,
+
+  "//user": "FTP/SFTP username. Pterodactyl SFTP usernames look like 'user.serverid'.",
+  "user": "myuser",
+
+  "//password": "FTP/SFTP password. Never commit this.",
+  "password": "changeme",
+
+  "//secure": "FTP only. true = explicit FTPS (FTP over TLS). false = plain FTP. Ignored for sftp.",
+  "secure": false,
+
+  "//remoteBase": "Remote directory the pack lives in. mods/ and config/ are created/synced under this. Typically '/' for Pterodactyl (the server root).",
+  "remoteBase": "/"
+}

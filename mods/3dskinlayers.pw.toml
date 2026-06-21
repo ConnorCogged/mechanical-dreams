@@ -12,3 +12,6 @@ hash = "c017d098874697ba93a03c06cfb4fe8a8bbc619448bff55c3c821089b164677fae2c8c20
 mod-id = "zV5r3pPn"
 version = "xPYbAPfz"
 
+[option]
+optional = true
+default = false

@@ -1,6 +1,6 @@
 name = "Immersive Interfaces"
 filename = "§6Immersive§8_§6Interfaces§8.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/3sV1gvyJ/versions/rhXvPOmr/%C2%A76Immersive%C2%A78_%C2%A76Interfaces%C2%A78.zip"
@@ -11,3 +11,7 @@ hash = "a8eb22e41c2aa1c72517240b7f1d5ca2640542b5782a794d1068eba5d6189356548e3aad
 [update.modrinth]
 mod-id = "3sV1gvyJ"
 version = "rhXvPOmr"
+
+[option]
+optional = true
+default = false

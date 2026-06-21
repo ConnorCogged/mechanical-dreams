@@ -1,6 +1,6 @@
 name = "Create-PBR"
 filename = "Create-LabPBR-v12.zip"
-side = "both"
+side = "client"
 
 [download]
 url = "https://cdn.modrinth.com/data/CFeoJnHX/versions/z4DFwE0n/Create-LabPBR-v12.zip"
@@ -11,3 +11,7 @@ hash = "ad690590ba7b517ac1ef4467bf93fcd0d766c127e2773ee80eaae4bf91c174f87ca0595b
 [update.modrinth]
 mod-id = "CFeoJnHX"
 version = "z4DFwE0n"
+
+[option]
+optional = true
+default = false

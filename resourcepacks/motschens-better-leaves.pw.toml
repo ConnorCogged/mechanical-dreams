@@ -1,6 +1,6 @@
 name = "Motschen's Better Leaves"
 filename = "Better-Leaves-9.5.zip"
-side = "both"
+side = "client"
 
 [download]
 hash-format = "sha1"
@@ -11,3 +11,7 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 7556678
 project-id = 380969
+
+[option]
+optional = true
+default = false
