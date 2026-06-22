@@ -1644,7 +1644,7 @@ metafile = true
 
 [[files]]
 file = "mods/connoradditions-1.1.0.jar"
-hash = "6086eec1abe1752aa1c54cba48379ac8ea0db03be342242acf09e924050477ea"
+hash = "ee1e3f58f21f7daacebd03f3e72fe5b2d1acb51d59156ad735ce62c1f6bf4179"
 
 [[files]]
 file = "mods/continents.pw.toml"
