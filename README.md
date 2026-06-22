@@ -20,13 +20,19 @@ That's it — no Node, no Python. The only requirement is the Java the launcher 
 
 ### Option B — CurseForge launcher (no MultiMC required)
 
-1. Download `Mechanical-Dreams-CurseForge.zip` from the pinned release / shared link.
-2. Open the CurseForge / Overwolf app → **Minecraft → Create Custom Profile → Import**.
-3. Pick the zip. CurseForge installs NeoForge 1.21.1, downloads all mods, and applies configs.
-4. Play.
+This build is **packwiz-managed**: the import zip only sets up NeoForge and a bundled
+`packwiz-installer-bootstrap.jar` + `update.bat`. packwiz then downloads the mods folder
+from the same live pack the Prism instance uses, so you get identical mods and updates.
 
-This is a **static snapshot** — it does *not* auto-update like the Prism instance. To get a
-newer pack version, re-import the latest zip. (CurseForge profiles can't pull from packwiz.)
+1. Download `Mechanical-Dreams-CurseForge.zip` from the pinned release / shared link.
+2. CurseForge / Overwolf app → **Minecraft → Create Custom Profile → Import** → pick the zip.
+3. Open the profile's folder (**… → Open Folder**) and double-click **`update.bat`**.
+   It downloads every mod; tick any optional mods (shaders, Iris, EMI …) when prompted.
+4. Launch from CurseForge.
+
+**To update later:** run `update.bat` again — it pulls the newest pack version and adds /
+removes / updates mods to match. CurseForge has no pre-launch hook, so this is the manual
+equivalent of Prism's auto-update (which runs the same installer on every launch).
 
 ### Manual setup (if not using the instance zip)
 
@@ -44,14 +50,17 @@ Edit mods/configs, then from this folder run `packwiz refresh` and push. Players
 update on their next launch. Build tooling is [packwiz](https://packwiz.infra.link/)
 (a single compiled binary — no interpreter required).
 
-To rebuild the CurseForge import zip (Option B above):
+The CurseForge import zip (Option B above) is **static** — it doesn't list mods, it just
+ships NeoForge + the packwiz installer, which fetches mods from the live pack at run time.
+So it only needs rebuilding if you change the pack version, loader, or the updater files;
+routine mod changes are picked up by players' `update.bat` with no new zip. Source lives in
+`dist/cf-pack/` (`manifest.json` + `overrides/{packwiz-installer-bootstrap.jar, update.bat,
+READ-ME-FIRST.txt}`). To rebuild:
 
 ```
-packwiz refresh
-packwiz curseforge export -y -o dist/Mechanical-Dreams-CurseForge.zip
+cd dist/cf-pack
+zip -r ../Mechanical-Dreams-CurseForge.zip manifest.json overrides
 ```
 
-CurseForge-sourced mods go into `manifest.json` by project/file ID; Modrinth/GitHub mods
-are downloaded and bundled under `overrides/mods/`. Note: every bundled non-CurseForge jar
-must be on CurseForge's [Approved Non-CurseForge Mods](https://support.curseforge.com/en/support/solutions/articles/9000197177)
-list for the pack to be uploadable to CurseForge (importing locally always works).
+Bump the `version` / `neoforge` fields in `dist/cf-pack/manifest.json` to match `pack.toml`
+when those change.
