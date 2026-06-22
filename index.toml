@@ -1578,6 +1578,11 @@ hash = "73e1227e6c3292ca45ee7ffa86a241447cc3f9c47fe25899ff292fc86cc716f6"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
+metafile = true
+
+[[files]]
 file = "mods/c2me.pw.toml"
 hash = "3194276e46b476e4dcf45109204daac5f4fe11ac94e0dc1e151a3d0fc20292d3"
 metafile = true
@@ -1890,7 +1895,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "3ca0882a5d538086f2028fcfd8662e1f64e7fcc58fd7d67a5249d372a56f87b0"
+hash = "399fc35ae5fc032a961025cfa9d32e126b5adb995258f4b6c44812990caa6e36"
 metafile = true
 
 [[files]]
@@ -2006,6 +2011,11 @@ metafile = true
 [[files]]
 file = "mods/redirected.pw.toml"
 hash = "a8e09044fb84c6b63782d68be84c899fbecebf7b70ee3f36a83bcff9e475d411"
+metafile = true
+
+[[files]]
+file = "mods/reeses-sodium-options.pw.toml"
+hash = "61d572ec6e241a8374db15e453074a7ae70485a0caf9082b9b39c608410f643a"
 metafile = true
 
 [[files]]
