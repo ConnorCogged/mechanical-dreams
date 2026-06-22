@@ -884,7 +884,7 @@ hash = "543e09f71cda1d97d238ac4150e43e50868cf781027c88d68fc714f261d88982"
 
 [[files]]
 file = "config/watut-server.toml"
-hash = "77c32650cc543180e5d03cf079956b631da769ef0c845cc75f34d95718be91f3"
+hash = "27ff5951ba52bc37a8acb1082259385522931af6097ac7c550d836a6b680c516"
 
 [[files]]
 file = "config/waves-common.toml"

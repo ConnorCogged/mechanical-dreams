@@ -13,7 +13,7 @@
 	#Blur is used to prevent nasty aliasing/flicker artifacts at the cost of clarity
 	# Default: 1
 	# Range: 0 ~ 2
-	dynamicGuiBlurLevel = 1
+	dynamicGuiBlurLevel = 0
 	#Adjust the size of the circle used to cut off extra info beyond their main area of their gui, visual issues may occur of too big. Set to -1 to disable
 	# Default: 112.0
 	# Range: 4.9E-324 ~ 1.7976931348623157E308
