@@ -1643,8 +1643,8 @@ hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
 
 [[files]]
-file = "mods/connoradditions-1.0.0.jar"
-hash = "a113dab28bc04b821e09769135ced59d6895f2ee4ce8bf2f0b2bef166ab38608"
+file = "mods/connoradditions-1.1.0.jar"
+hash = "6086eec1abe1752aa1c54cba48379ac8ea0db03be342242acf09e924050477ea"
 
 [[files]]
 file = "mods/continents.pw.toml"
@@ -1860,7 +1860,7 @@ metafile = true
 
 [[files]]
 file = "mods/geckolib.pw.toml"
-hash = "68e15ffc71a84261e0dbbb317329788c21a7b9eb8060687dc8a51008cc3029fe"
+hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
@@ -2024,6 +2024,11 @@ hash = "7c9a71adaf6a69f95ce023fabceb5b34616a446a59e91deea19a7bd6183ed7c3"
 metafile = true
 
 [[files]]
+file = "mods/revervox.pw.toml"
+hash = "228a16ce127dca7cefab4a4a2ba7dc47db6befa7c4082746f2ac21cb2b17231b"
+metafile = true
+
+[[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
 hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
@@ -2055,7 +2060,7 @@ metafile = true
 
 [[files]]
 file = "mods/simple-voice-chat.pw.toml"
-hash = "599a76943211c7abb306de37f45a699da56e300eb1ec739b035c0912250a0dfd"
+hash = "369617869e9c8224e9c5e875d70677c491bc4282919b32705d096d253e2ffecd"
 metafile = true
 
 [[files]]
@@ -2118,6 +2123,11 @@ hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
 metafile = true
 
 [[files]]
+file = "mods/voice-chat-recording.pw.toml"
+hash = "21a7e5b8ec72e5c79e7c701bce972eaf5e3f71c689e85c401c667503d4d3b433"
+metafile = true
+
+[[files]]
 file = "mods/what-are-they-up-to.pw.toml"
 hash = "61387d427f7c5bfd71df275f731384b70ae12f6b1e520ee9e232ae8c175d42bd"
 metafile = true
@@ -2125,6 +2135,11 @@ metafile = true
 [[files]]
 file = "mods/worldedit.pw.toml"
 hash = "74537d95785dd2a5b401d8322ec48d54398d267be6cd5199dd43e52435623828"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-minimap-fair.pw.toml"
+hash = "9d966b99e930f0b313bf09c81985522d2c1333efaf890351d006753261e74888"
 metafile = true
 
 [[files]]
