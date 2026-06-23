@@ -1643,8 +1643,8 @@ hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
 
 [[files]]
-file = "mods/connoradditions-1.2.22.jar"
-hash = "4c0c717fc17e786f3d5d049be12a6127bbf2815c965fce376bd4bf2ffa1cd7e9"
+file = "mods/connoradditions-1.2.23.jar"
+hash = "f63e15b423824e61c8edf380a970de64525123552d93478d33db414e5f8d47fa"
 
 [[files]]
 file = "mods/continents.pw.toml"
