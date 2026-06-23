@@ -1643,8 +1643,8 @@ hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
 
 [[files]]
-file = "mods/connoradditions-1.2.21.jar"
-hash = "054ad3e29ab41e48352175fcc99bcf68aff1640745f26b8616698259722edf48"
+file = "mods/connoradditions-1.2.22.jar"
+hash = "4c0c717fc17e786f3d5d049be12a6127bbf2815c965fce376bd4bf2ffa1cd7e9"
 
 [[files]]
 file = "mods/continents.pw.toml"
@@ -1976,6 +1976,11 @@ metafile = true
 [[files]]
 file = "mods/no-chat-reports.pw.toml"
 hash = "5da18814472be5dc93a21886983646da3a7236413800075ac75229be82d114fa"
+metafile = true
+
+[[files]]
+file = "mods/no-chat-restrictions.pw.toml"
+hash = "41fdfe1b010114705a3999f6896b36132737b41c66db409c858ef3e434ca4fb6"
 metafile = true
 
 [[files]]
