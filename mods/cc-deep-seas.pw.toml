@@ -1,0 +1,13 @@
+name = "CC: Deep Seas"
+filename = "cc_deepseas-1.1.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FFRmzdEr/versions/qKkaeGSS/cc_deepseas-1.1.1.jar"
+hash-format = "sha512"
+hash = "10e2d5f82d420666c0a570d01886a42f758ea4fe91e7b4bd50f2a599cd6a535430242b76269863f033ab15b3611dbb5ccd81df7f6ceecd357ca86ab18ec3ac56"
+
+[update]
+[update.modrinth]
+mod-id = "FFRmzdEr"
+version = "qKkaeGSS"

@@ -1600,6 +1600,11 @@ file = "mods/cbcmodernwarfare-0.0.6d-sablefix6+mc.1.21.1-neoforge.jar"
 hash = "3efd4237466eacb8c60c845155b48fb422abce5d386b3a0842886631183ca61c"
 
 [[files]]
+file = "mods/cc-deep-seas.pw.toml"
+hash = "2f23159bbbda90471b31e843f7a743b4d5d56718b4fd213a6f91c7ef77c931f0"
+metafile = true
+
+[[files]]
 file = "mods/cc-graphics.pw.toml"
 hash = "4987179ab5180c2f75ad51c93af2f48011128da808dda77bf9cc5003dada88b1"
 metafile = true
@@ -1728,7 +1733,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-deep-seas.pw.toml"
-hash = "96b3a6fcba1cbf8d976211fb2d13f934e0586ed6b80f0f4bed1a4b4ffe9a2a70"
+hash = "404db1758af44123b89cbf6e2ffdf4a5cf11b708be665f48657ff40735723152"
 metafile = true
 
 [[files]]
