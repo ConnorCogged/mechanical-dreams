@@ -1,0 +1,13 @@
+name = "NoxLights"
+filename = "noxlights-1.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/8bNo28QU/versions/cbdXQdvu/noxlights-1.0.0.jar"
+hash-format = "sha512"
+hash = "19ca8df29c2737de64cf52a7f99fcca350d89b9a70bd81378f7f063109054d054894a19500f1915f234e8808b4c0b73b3cacced921708acd1ce253e699afb49f"
+
+[update]
+[update.modrinth]
+mod-id = "8bNo28QU"
+version = "cbdXQdvu"

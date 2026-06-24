@@ -1678,7 +1678,7 @@ metafile = true
 
 [[files]]
 file = "mods/create-aeronautics-climbable-ropes.pw.toml"
-hash = "f5bb780bb7de5673e60f0959bd073ba057b01629fe7300c39a04563f81d8ef41"
+hash = "7ec7c14b993adb1703085c631400e0b6e7eae83f37d18465bd2370d4b8451f2b"
 metafile = true
 
 [[files]]
@@ -1874,6 +1874,11 @@ hash = "3d38d89c5adddec6a9c1352e3c4ced3f0c80639f1f11da237aac883e629998e8"
 metafile = true
 
 [[files]]
+file = "mods/grieflogger.pw.toml"
+hash = "e4d63300d9fdf653fe7eb135a52755680d00566ef5b4628c3c03db949fdb7fcb"
+metafile = true
+
+[[files]]
 file = "mods/hots-aerostuff.pw.toml"
 hash = "204c2537ff1383d973a32677b566b898d0a92046b8245ced5d72653f3624f19f"
 metafile = true
@@ -1943,6 +1948,11 @@ hash = "bd5faab042efe7ecea0fb36e31af2332914968605d9f3870f134f4154e2bca26"
 metafile = true
 
 [[files]]
+file = "mods/lodestonelib.pw.toml"
+hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
+metafile = true
+
+[[files]]
 file = "mods/memory-settings.pw.toml"
 hash = "20d079e04356c4518ea386bf12fd5d7e77a5887651f816a15a369b92c839b4b8"
 metafile = true
@@ -1999,6 +2009,11 @@ hash = "131c08938820601ef51b7db1a7c83fc0b47b966ef58c3c11f75d7d75b6b271a9"
 metafile = true
 
 [[files]]
+file = "mods/noxlights.pw.toml"
+hash = "0e0d2f8aa87f54c2fa8dfb89f333e01c50b431cd35806e5160d826f57224314f"
+metafile = true
+
+[[files]]
 file = "mods/patchouli.pw.toml"
 hash = "3718e8a37d0dc2939cc350cce74bcb9c36b59f48baf4560e62804f7ca6478185"
 metafile = true
@@ -2016,6 +2031,11 @@ metafile = true
 [[files]]
 file = "mods/quark.pw.toml"
 hash = "1cb4d10e4920284d982c90a2145d57bb09d754f04e83cb0f9aae6bd45f3d2d2b"
+metafile = true
+
+[[files]]
+file = "mods/ragdoll-reactions.pw.toml"
+hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
 metafile = true
 
 [[files]]
@@ -2051,6 +2071,11 @@ metafile = true
 [[files]]
 file = "mods/rolled-homongenous-forked.pw.toml"
 hash = "aa6821caebc50542c1d9529fa1ecc615ee0b1c46d9649940c3731ad42f240107"
+metafile = true
+
+[[files]]
+file = "mods/sable-ragdolls.pw.toml"
+hash = "40ba7036effaabdc8a656e3bea11f0f8712740ebe0e8119c2d1179b968659934"
 metafile = true
 
 [[files]]
@@ -2108,8 +2133,18 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
+file = "mods/spotlights-or-something.pw.toml"
+hash = "d73511c291c619293c0cd2a8529b29405da3fb5823ca7ba5b215b4832daf8883"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "60d6921ec70b1c098fcfbf0254022b7a9a3a859635e6857fd6dc64c12381aeac"
+metafile = true
+
+[[files]]
+file = "mods/supermartijn642s-config-lib.pw.toml"
+hash = "62bd7012826fdcccf17a089055be67f87fb7335c88e73efc52bc9e51a1bf3188"
 metafile = true
 
 [[files]]
@@ -2119,7 +2154,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "6c8d728f2e4c1e92b3f84219df52c173ee2f54b57dfe33270679e26af9b89afb"
+hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
 metafile = true
 
 [[files]]
@@ -2130,6 +2165,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+metafile = true
+
+[[files]]
+file = "mods/veil.pw.toml"
+hash = "aa3b19752dc5e1f268c70809946514d960917f64f4fac80617162bb6c2c98835"
 metafile = true
 
 [[files]]

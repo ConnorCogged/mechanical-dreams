@@ -1,6 +1,6 @@
 name = "Climbable Ropes for Create Aeronautics"
 filename = "climbable_ropes-2.0.1.jar"
-side = "client"
+side = "both"
 
 [download]
 hash-format = "sha1"
@@ -11,8 +11,3 @@ mode = "metadata:curseforge"
 [update.curseforge]
 file-id = 8156908
 project-id = 1528764
-
-[option]
-optional = true
-default = false
-description = "Lets you climb the ropes used by Create Aeronautics airships. Quality-of-life — enable if you build with Aeronautics rope anchors."
