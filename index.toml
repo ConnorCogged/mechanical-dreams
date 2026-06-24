@@ -444,7 +444,7 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 
 [[files]]
 file = "config/iris.properties"
-hash = "1de9f8bd987e3b274be3767f1638c189b30df947aa95e3a23b4c543e15152b2b"
+hash = "ef3cab01ae404c0e931420d9376cb0c7ec45bcd0a00483779c559909846a8750"
 
 [[files]]
 file = "config/irisflw-client.toml"
@@ -1910,7 +1910,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "a98ba17ce2e140764b4c90fa906b3da866132f0c26a287786dcd75226fb2f5e5"
+hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
 
 [[files]]

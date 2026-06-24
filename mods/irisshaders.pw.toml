@@ -11,8 +11,3 @@ hash = "33fddb430e16222902eac75b8b3d57c381b0f3cc729f3b56c4628df12ca108f23a0b11e2
 [update.modrinth]
 mod-id = "YL57xq9U"
 version = "KduFYu4t"
-
-[option]
-optional = true
-default = true
-description = "Shader-pack loader for fancy lighting, shadows, and water. On by default (also lets NoxLights/Spotlights run without the Sodium shader crash). Demanding — disable on low-end machines, and disable Colorwheel alongside it."
