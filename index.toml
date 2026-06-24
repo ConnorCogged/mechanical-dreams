@@ -2024,11 +2024,6 @@ hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
-file = "mods/playerrevive.pw.toml"
-hash = "998704b5cdd52b78a94a5088c5e90b3a9318f0fd5435084da8ae6e9f6fc2671f"
-metafile = true
-
-[[files]]
 file = "mods/quark.pw.toml"
 hash = "1cb4d10e4920284d982c90a2145d57bb09d754f04e83cb0f9aae6bd45f3d2d2b"
 metafile = true
@@ -2036,6 +2031,11 @@ metafile = true
 [[files]]
 file = "mods/ragdoll-reactions.pw.toml"
 hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
+metafile = true
+
+[[files]]
+file = "mods/ragdoll-revive.pw.toml"
+hash = "e81fc94708d83a6237ed63eae08c888d3ae2b98ec86692b883a70854f4c2c22a"
 metafile = true
 
 [[files]]
@@ -2080,7 +2080,7 @@ metafile = true
 
 [[files]]
 file = "mods/sable.pw.toml"
-hash = "56c47f4f4732d86a144c8c86af80411238c3ea74f6b96b0bc5174d2f20073a98"
+hash = "674aaf0dc67f808f0054cfc7bbe041d6725fcbbe97644a85ffbd946a22d35666"
 metafile = true
 
 [[files]]
@@ -2154,7 +2154,7 @@ metafile = true
 
 [[files]]
 file = "mods/terralith.pw.toml"
-hash = "f083c3cdf6aadc3b033e20ba8ccc929d5e1b86a0be50b05dc638d7f76dab5024"
+hash = "da7ee99189ad35aac094919fe33cac647d98533b23c228f10d4811f08989e2b8"
 metafile = true
 
 [[files]]
