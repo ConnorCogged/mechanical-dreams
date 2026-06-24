@@ -14,5 +14,5 @@ version = "KduFYu4t"
 
 [option]
 optional = true
-default = false
-description = "Shader-pack loader for fancy lighting, shadows, and water. A big visual upgrade but demanding — disable on low-end machines."
+default = true
+description = "Shader-pack loader for fancy lighting, shadows, and water. On by default (also lets NoxLights/Spotlights run without the Sodium shader crash). Demanding — disable on low-end machines, and disable Colorwheel alongside it."

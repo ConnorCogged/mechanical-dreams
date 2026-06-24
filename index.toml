@@ -1643,6 +1643,11 @@ hash = "bf94c3f1658f51e23dc6f80532b770e158744d1585986329f9e928d350744a77"
 metafile = true
 
 [[files]]
+file = "mods/colorwheel.pw.toml"
+hash = "1dd7b4a7e59bcb3f481c271fc118f9b69f88338109fbfe1bb0b2582c32dd07fe"
+metafile = true
+
+[[files]]
 file = "mods/configurable.pw.toml"
 hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
@@ -1905,7 +1910,7 @@ metafile = true
 
 [[files]]
 file = "mods/irisshaders.pw.toml"
-hash = "399fc35ae5fc032a961025cfa9d32e126b5adb995258f4b6c44812990caa6e36"
+hash = "a98ba17ce2e140764b4c90fa906b3da866132f0c26a287786dcd75226fb2f5e5"
 metafile = true
 
 [[files]]
@@ -1945,6 +1950,11 @@ metafile = true
 [[files]]
 file = "mods/lithostitched.pw.toml"
 hash = "bd5faab042efe7ecea0fb36e31af2332914968605d9f3870f134f4154e2bca26"
+metafile = true
+
+[[files]]
+file = "mods/lodestonelib.pw.toml"
+hash = "f5d0701055478e980b50849f199f266e6ab1940277a17ad2e5060df0d978be83"
 metafile = true
 
 [[files]]
@@ -2001,6 +2011,11 @@ metafile = true
 [[files]]
 file = "mods/not-enough-crashes-forge.pw.toml"
 hash = "131c08938820601ef51b7db1a7c83fc0b47b966ef58c3c11f75d7d75b6b271a9"
+metafile = true
+
+[[files]]
+file = "mods/noxlights.pw.toml"
+hash = "0e0d2f8aa87f54c2fa8dfb89f333e01c50b431cd35806e5160d826f57224314f"
 metafile = true
 
 [[files]]
@@ -2123,6 +2138,11 @@ hash = "6d9eaf43c14c66465e87bf03cc5cb5ecef57b3f2e8063c52f6332d33689d30be"
 metafile = true
 
 [[files]]
+file = "mods/spotlights-or-something.pw.toml"
+hash = "d73511c291c619293c0cd2a8529b29405da3fb5823ca7ba5b215b4832daf8883"
+metafile = true
+
+[[files]]
 file = "mods/steam-n-rails-neoforge.pw.toml"
 hash = "60d6921ec70b1c098fcfbf0254022b7a9a3a859635e6857fd6dc64c12381aeac"
 metafile = true
@@ -2150,6 +2170,11 @@ metafile = true
 [[files]]
 file = "mods/txnilib.pw.toml"
 hash = "7d7deb14e956b71fe2f9c999acefdb5edbfc264d9c66e5e2fce7c90ee704d05a"
+metafile = true
+
+[[files]]
+file = "mods/veil.pw.toml"
+hash = "aa3b19752dc5e1f268c70809946514d960917f64f4fac80617162bb6c2c98835"
 metafile = true
 
 [[files]]
