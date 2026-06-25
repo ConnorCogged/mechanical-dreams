@@ -1796,7 +1796,7 @@ hash = "7ef7ab529cd8d4fbc5f4fa21961a6d20f2e0930cc05fb1f66b5a0f5ae504ed9a"
 
 [[files]]
 file = "mods/creativecore.pw.toml"
-hash = "3966f08ef3db053c3024e44975ed41f29a074a7d639e0b02f514fc91ac58b655"
+hash = "d1dd0981cbd7ae9601c9c4603f88826b68a0c7e76fc12ef6bc80f08188d7dfb8"
 metafile = true
 
 [[files]]
@@ -2019,18 +2019,13 @@ hash = "5b30dafc9e96471978376ee010cec0ddf592377ac94192c9370cb37973e1e95f"
 metafile = true
 
 [[files]]
+file = "mods/playerrevive.pw.toml"
+hash = "2fce8261a3f3f1c97232926429dfc4aa7ba871a04ce4fde8d87f21404a6ac857"
+metafile = true
+
+[[files]]
 file = "mods/quark.pw.toml"
 hash = "1cb4d10e4920284d982c90a2145d57bb09d754f04e83cb0f9aae6bd45f3d2d2b"
-metafile = true
-
-[[files]]
-file = "mods/ragdoll-reactions.pw.toml"
-hash = "89bd0f15795c70a1e06074e22bc5d80969abd48e1f540c79e3023cf8be51bef9"
-metafile = true
-
-[[files]]
-file = "mods/ragdoll-revive.pw.toml"
-hash = "e81fc94708d83a6237ed63eae08c888d3ae2b98ec86692b883a70854f4c2c22a"
 metafile = true
 
 [[files]]
@@ -2066,11 +2061,6 @@ metafile = true
 [[files]]
 file = "mods/rolled-homongenous-forked.pw.toml"
 hash = "aa6821caebc50542c1d9529fa1ecc615ee0b1c46d9649940c3731ad42f240107"
-metafile = true
-
-[[files]]
-file = "mods/sable-ragdolls.pw.toml"
-hash = "40ba7036effaabdc8a656e3bea11f0f8712740ebe0e8119c2d1179b968659934"
 metafile = true
 
 [[files]]
