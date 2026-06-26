@@ -2044,11 +2044,6 @@ hash = "7c9a71adaf6a69f95ce023fabceb5b34616a446a59e91deea19a7bd6183ed7c3"
 metafile = true
 
 [[files]]
-file = "mods/revervox.pw.toml"
-hash = "228a16ce127dca7cefab4a4a2ba7dc47db6befa7c4082746f2ac21cb2b17231b"
-metafile = true
-
-[[files]]
 file = "mods/ritchies-projectile-library.pw.toml"
 hash = "c62b51a8248d15e3cb63880ac123a92dd6a67973a1eafc4c4cb09f3f74481f78"
 metafile = true
@@ -2150,6 +2145,11 @@ metafile = true
 [[files]]
 file = "mods/voice-chat-recording.pw.toml"
 hash = "21a7e5b8ec72e5c79e7c701bce972eaf5e3f71c689e85c401c667503d4d3b433"
+metafile = true
+
+[[files]]
+file = "mods/vs-hose-connectors.pw.toml"
+hash = "c3c017673463b8f0826966d657956821df911dd46964bd2ad062e00fad6e5028"
 metafile = true
 
 [[files]]
