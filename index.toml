@@ -1653,8 +1653,8 @@ hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
 
 [[files]]
-file = "mods/connoradditions-1.2.27.jar"
-hash = "ed8fa1ede7e4c6feef2593e98086e427d6960345396af9ddea949d58f02bb3b1"
+file = "mods/connoradditions-1.2.28.jar"
+hash = "93968a93a05678ecd49afb32aee3fa5b4da3e8204d987bdfd419df64653cd13d"
 
 [[files]]
 file = "mods/continents.pw.toml"
@@ -1684,6 +1684,11 @@ metafile = true
 [[files]]
 file = "mods/create-aeronautics-climbable-ropes.pw.toml"
 hash = "7ec7c14b993adb1703085c631400e0b6e7eae83f37d18465bd2370d4b8451f2b"
+metafile = true
+
+[[files]]
+file = "mods/create-aeronautics-gadgets-and-gizmos.pw.toml"
+hash = "b800fcd5be778384de27dcfe3250e7d391b2aff3bb6364e3f54e7ae261daf9ba"
 metafile = true
 
 [[files]]
