@@ -4,3 +4,4 @@ tools/
 .gitattributes
 .gitignore
 .packwizignore
+.redactcc
