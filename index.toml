@@ -2190,6 +2190,7 @@ metafile = true
 [[files]]
 file = "options.txt"
 hash = "0cc9a874102b2de72e4fb975b8ade666c995e1d71292243da02691ed4bbc9180"
+preserve = true
 
 [[files]]
 file = "resourcepacks/better-lanterns.pw.toml"
