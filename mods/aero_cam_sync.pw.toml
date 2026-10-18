@@ -1,0 +1,13 @@
+name = "Aeronautics Camera Sync"
+filename = "aero_cam_sync-1.3.6.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/ZGxtWu73/versions/Q9Le9WV6/aero_cam_sync-1.3.6.jar"
+hash-format = "sha512"
+hash = "9887c8923d90838035b9ab12074d369e1d243487ef2bee6c082d4888eaa7ecfd5af6b95b217215b9b553c99d23b0301beb424867e51a0cbeb4da30a54a4e607f"
+
+[update]
+[update.modrinth]
+mod-id = "ZGxtWu73"
+version = "Q9Le9WV6"

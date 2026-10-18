@@ -25,7 +25,7 @@ this repository; each is listed with its author, license, and source.
 
 | Mod | Author | License | Source |
 |-----|--------|---------|--------|
-| Create: Cosmonautics (rocketnautics v1.3.3) | CosmonauticsTeam | GPLv3 | https://github.com/CosmonauticsTeam/Create-Cosmonautics (tag v1.3.3) |
+| Create: Cosmonautics (rocketnautics 26.08.307) | CosmonauticsTeam | GPLv3 | https://github.com/CosmonauticsTeam/Create-Cosmonautics (tag 26.08.307) |
 | CCSecureBoot | JackMacWindows | MPL-2.0 | https://modrinth.com/mod/ccsecureboot |
 
 ## Your outstanding obligations
