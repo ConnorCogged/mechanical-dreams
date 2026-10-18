@@ -413,14 +413,6 @@
     "curseForgeHash": 1703092068,
     "modrinthHash": "87e019715314631f2c8288cf7c73a52a61b2d61b"
   },
-  "fdlib-1.0.9-1.21.1.jar": {
-    "jarName": "fdlib-1.0.9-1.21.1.jar",
-    "modId": "fdlib",
-    "name": "FDLib",
-    "version": "1.0.9",
-    "curseForgeHash": 1884079549,
-    "modrinthHash": "03a171d170b22a04e67d2cc7894ddddd8489a295"
-  },
   "ferritecore-7.0.3-neoforge.jar": {
     "jarName": "ferritecore-7.0.3-neoforge.jar",
     "modId": "ferritecore",
@@ -428,14 +420,6 @@
     "version": "7.0.3",
     "curseForgeHash": 2808038058,
     "modrinthHash": "9563692efb708b6b568df27a01ec52f6311928ef"
-  },
-  "geckolib-neoforge-1.21.1-4.8.4.jar": {
-    "jarName": "geckolib-neoforge-1.21.1-4.8.4.jar",
-    "modId": "geckolib",
-    "name": "GeckoLib 4",
-    "version": "4.8.4",
-    "curseForgeHash": 396384696,
-    "modrinthHash": "eb854c8ec53ef922a5f3877a1aa4c1ce1352e0ce"
   },
   "GlitchCore-neoforge-1.21.1-2.1.0.0.jar": {
     "jarName": "GlitchCore-neoforge-1.21.1-2.1.0.0.jar",
@@ -477,14 +461,6 @@
     "curseForgeHash": 1522918123,
     "modrinthHash": "0d048cea8461ae68a9f4b2d2e9d1e657d61e1965"
   },
-  "integrated_api-1.7.4+1.21.1-neoforge.jar": {
-    "jarName": "integrated_api-1.7.4+1.21.1-neoforge.jar",
-    "modId": "integrated_api",
-    "name": "Integrated API",
-    "version": "1.7.4+1.21.1-neoforge",
-    "curseForgeHash": 1443521508,
-    "modrinthHash": "11e291c2c37a0b7563cf7b8bc7e70aee868e6eb4"
-  },
   "jei-1.21.1-neoforge-19.27.0.336.jar": {
     "jarName": "jei-1.21.1-neoforge-19.27.0.336.jar",
     "modId": "jei",
@@ -492,14 +468,6 @@
     "version": "19.27.0.336",
     "curseForgeHash": 2367855127,
     "modrinthHash": "d02c849e4e321e7b056a48e0242ec641560c2ab8"
-  },
-  "Kiwi-1.21.1-NeoForge-15.7.5.jar": {
-    "jarName": "Kiwi-1.21.1-NeoForge-15.7.5.jar",
-    "modId": "kiwi",
-    "name": "Kiwi Library",
-    "version": "15.7.5+neoforge",
-    "curseForgeHash": 1506588892,
-    "modrinthHash": "68913c5e74a0c7f7d04dac0c65015d53d5bb6254"
   },
   "kotlinforforge-5.11.0-all.jar": {
     "jarName": "kotlinforforge-5.11.0-all.jar",
@@ -521,14 +489,6 @@
     "version": "1.21-1.4.19",
     "curseForgeHash": 1523407013,
     "modrinthHash": "7ab105d7e5205a2d7b6f50701eb2bbdd0dbbba0f"
-  },
-  "lionfishapi-2.7-fix-fix.jar": {
-    "jarName": "lionfishapi-2.7-fix-fix.jar",
-    "modId": "lionfishapi",
-    "name": "lionfishapi",
-    "version": "2.7",
-    "curseForgeHash": 3722162517,
-    "modrinthHash": "af90b807eed100e899b9afa13bb75e7d45294ba3"
   },
   "lithium-neoforge-0.15.3+mc1.21.1.jar": {
     "jarName": "lithium-neoforge-0.15.3+mc1.21.1.jar",

@@ -14,5 +14,5 @@ version = "5zRIon6w"
 
 [option]
 optional = true
-default = false
+default = true
 description = "Skips rendering entities and block entities that are hidden from view, improving FPS. Client-side performance — recommended on weaker hardware."

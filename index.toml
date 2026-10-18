@@ -204,7 +204,7 @@ hash = "becd819bd87b69fc52ecc5cf37cd513c9498236bafd125f00496115d27c7b745"
 
 [[files]]
 file = "config/crash_assistant/modlist.json"
-hash = "25b83ca3482494b5580bab017e816382ae3b73e79d46c5c2c61d81c998877cd8"
+hash = "18b6ed46896cab556c64205590a12ace8f46e1391c814c8c377215a7ae6d6f7c"
 
 [[files]]
 file = "config/crash_assistant/scripts/log_analysis/example.jexl"
@@ -395,14 +395,6 @@ file = "config/fdbosses/bosses.json"
 hash = "f6cb0da1b6fe1b5361412a24baed516e6588d8987cbdeb7105f3a47b9c1ca7c0"
 
 [[files]]
-file = "config/fdlib/fdlib_client.json"
-hash = "fee032c43c30c3a4cfaa26736c3c719a9baab0badaa6ed8670353670b4999074"
-
-[[files]]
-file = "config/fdlib/test.json"
-hash = "29c354279f36049c2cda368882d498dc20d8fc9193899e42824b75f406e33ade"
-
-[[files]]
 file = "config/ferritecore-mixin.toml"
 hash = "1356f9d52b2dcb2afa5a593e53c286d9c1c3778a6f8b1cf761953b185b7dce78"
 
@@ -446,10 +438,6 @@ hash = "4d3264b58c502afaeca3f44e8d2db0843c54b8ba957afd21a2d450fe10dafefb"
 [[files]]
 file = "config/iris.properties"
 hash = "1de9f8bd987e3b274be3767f1638c189b30df947aa95e3a23b4c543e15152b2b"
-
-[[files]]
-file = "config/irisflw-client.toml"
-hash = "d4337f746eae3c32bbb0965992a7db1c3b25b01f104c4a47213a1f1f544f67da"
 
 [[files]]
 file = "config/jei-server.toml"
@@ -504,14 +492,6 @@ file = "config/killfx-ranks.json"
 hash = "73d77689d5b6cecf3ab96a2477e811ce2f853a00f88f9029e38b9b31e616a29a"
 
 [[files]]
-file = "config/kiwi-client.yaml"
-hash = "6578bc417fc04cc6e57b330bf139a6d48ab5fc9de95638ae283f14975178ac3d"
-
-[[files]]
-file = "config/kiwi-common.yaml"
-hash = "202b5a7ab19c1cfff344bd6546be24f8c10a3e92632551ca83ab636016e9d72f"
-
-[[files]]
 file = "config/ldfix-common.toml"
 hash = "8e7cefa76381d9b3034e968765668ad2f40cfc15d5be83148460bce25f217a47"
 
@@ -558,22 +538,6 @@ hash = "72ca2bcea2a9946a3a54842f14eff6f7b47d8fc96ef497c1b56406643b153fd7"
 [[files]]
 file = "config/modernfix-mixins.properties"
 hash = "32bbaa6f573b612b92653fc2814365cd8aa423d39fcab4fa5dcfcb5f31121874"
-
-[[files]]
-file = "config/mods_optimizer/config.toml"
-hash = "686157f187cdf5613327b6b78d8c66806b6f4b75efe085f5dcd1c005f1b487e2"
-
-[[files]]
-file = "config/mods_optimizer/mods-database-override.json"
-hash = "8726817ae38451e33e2a4554bdac7140bbf382f4baa73e16feb8a0d30866d1a2"
-
-[[files]]
-file = "config/mods_optimizer/mods-database.json"
-hash = "cd6e0f100089b022189b3c492ef77d3edcc243966f1779c13dc1a86be2fe9cd8"
-
-[[files]]
-file = "config/mods_optimizer/mods-database.json.sha256"
-hash = "0c04038f0341f9a129de9c8b12ad3b518e13c4fdaa2211943b0894399e4951e9"
 
 [[files]]
 file = "config/moonlight-client.toml"
@@ -1593,10 +1557,6 @@ file = "mods/cbc_compact_mount-1.2.2.jar"
 hash = "618e8cfc47bb0c70e09b5748913a48016532e9de104319d94b353ba434156474"
 
 [[files]]
-file = "mods/cbcmodernwarfare-0.0.6d+mc.1.21.1-neoforge.jar.disabled"
-hash = "b15cd24f7b2e394830806003276114e558432b632ec6c4f2abbec2c58edc2c9b"
-
-[[files]]
 file = "mods/cbcmodernwarfare-0.0.6d-sablefix6+mc.1.21.1-neoforge.jar"
 hash = "3efd4237466eacb8c60c845155b48fb422abce5d386b3a0842886631183ca61c"
 
@@ -1841,7 +1801,7 @@ metafile = true
 
 [[files]]
 file = "mods/entityculling.pw.toml"
-hash = "4185726eb1a144e93a8de6ee8d7d01f59e6fd5aa1d839d4c1d10f9c5665fffcd"
+hash = "fb8f3921c7c793f453dac40be9073abb4eb48e143d88d25ed8f3589b220cf77f"
 metafile = true
 
 [[files]]
@@ -1860,11 +1820,6 @@ hash = "97251ed060d6fca41ec87c63e35e1a525fa95caa60a21848bc20a5a5da39fce2"
 metafile = true
 
 [[files]]
-file = "mods/fdlib.pw.toml"
-hash = "a85ef8504d5bd6fca464cfa59df51af343a5194f5b71ed127197751280d904a6"
-metafile = true
-
-[[files]]
 file = "mods/ferritecore.pw.toml"
 hash = "dff824171060c79b327a4880c2f0546c727a041a489ef3af643ec2dcd9cd0c48"
 metafile = true
@@ -1872,11 +1827,6 @@ metafile = true
 [[files]]
 file = "mods/gears-n-kinetics.pw.toml"
 hash = "ca9a6e860a062bf02cdc222775e8adaa2c0d9a38891464eeb55a12eecef69ce4"
-metafile = true
-
-[[files]]
-file = "mods/geckolib.pw.toml"
-hash = "0521ed2becdf2b460511c92e80e2702a4b6e540c85c99fb571844e1c7c505724"
 metafile = true
 
 [[files]]
@@ -1905,16 +1855,6 @@ hash = "88c666259f5e45c7ea59da636ba4aa651a6b4f154f4a4472b52725471d06f035"
 metafile = true
 
 [[files]]
-file = "mods/integrated-api.pw.toml"
-hash = "6c32b08de9fe127254e7dfd1bb8bf863d941d910be639012a7ffaa7a6d234c22"
-metafile = true
-
-[[files]]
-file = "mods/iris-flywheel-compat.pw.toml"
-hash = "6496974159fcd03877945a11aa0327df97ff065ae0fea24fe1f587e3af31cf2c"
-metafile = true
-
-[[files]]
 file = "mods/irisshaders.pw.toml"
 hash = "db1c1e6382878b78e994dba1b9026935f8d1c5ca685c89d2437858e0a0dcab58"
 metafile = true
@@ -1922,11 +1862,6 @@ metafile = true
 [[files]]
 file = "mods/jei.pw.toml"
 hash = "2adc7a51ce009ed3e7c1e0d22fd71ad2c152796d8e0ab6cda1447bf89d6404bb"
-metafile = true
-
-[[files]]
-file = "mods/kiwi.pw.toml"
-hash = "b2ed188779735803fa335e39df07bc571b32993c95b6a02f78521b16eedaeb7d"
 metafile = true
 
 [[files]]
@@ -1944,11 +1879,6 @@ file = "mods/lexiconfig-neoforge-1.21-1.4.19.jar"
 hash = "7bcb26452918cf4e31df787ac10566e2f462c80aed53c4e1aa7c4b47bb70d687"
 
 [[files]]
-file = "mods/lionfish-api.pw.toml"
-hash = "785513830b679834046baec7a2848f46a72d701548399131b8819ebfe4f0f5c8"
-metafile = true
-
-[[files]]
 file = "mods/lithium.pw.toml"
 hash = "3b41e84ca0e5bd93f05eddcdff3f47b38e8bb9863b9bbb4bf05991098487a8a5"
 metafile = true
@@ -1964,26 +1894,9 @@ hash = "20d079e04356c4518ea386bf12fd5d7e77a5887651f816a15a369b92c839b4b8"
 metafile = true
 
 [[files]]
-file = "mods/mimimod-1.21.1-4.3.0-neo.jar.disabled"
-hash = "d0e4bb71c0a57bef56dc858194c64f36cc1e13f735d42fbc0cab075614be4d76"
-
-[[files]]
 file = "mods/modernfix.pw.toml"
 hash = "a58c1322f0d21a88b3a42627374f045fe34a0385ef6630ec516b77d73438accc"
 metafile = true
-
-[[files]]
-file = "mods/mods-optimizer.pw.toml"
-hash = "92b0f0e3b461438a9a65184076a297adf477b084ae3792bf2a70ec942cbd2439"
-metafile = true
-
-[[files]]
-file = "mods/neoperipheral-1.3a.jar.disabled"
-hash = "1b7f5a5901434d9ebd15c904a5f75bc01c8167d5340e756b1e0146858cf4f1f4"
-
-[[files]]
-file = "mods/neoperipheral-1.3c-noisy.jar.disabled"
-hash = "3ba3ffc62b46adb9d071d73fe4977774199d201d12626e5a4a6f55568c428ad3"
 
 [[files]]
 file = "mods/neoperipheral-1.3c.jar"
