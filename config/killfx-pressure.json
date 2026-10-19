@@ -1,0 +1,26 @@
+{
+  "enabled": false,
+  "scanIntervalTicks": 10,
+  "maxScan": 256,
+  "hardenColumn": true,
+  "airGapTolerance": 3,
+  "baseFreeDepth": 15.0,
+  "graceOver": 25.0,
+  "implodeOver": 55.0,
+  "graceTicks": 100,
+  "moderateDamage": 1.0,
+  "lethalDamage": 2.5,
+  "implodeDamage": 1000.0,
+  "nauseaTicks": 80,
+  "copperHelmetId": "create:copper_diving_helmet",
+  "netheriteHelmetId": "create:netherite_diving_helmet",
+  "backtankIds": [
+    "create:copper_backtank",
+    "create:copper_backtank_placeable",
+    "create:netherite_backtank",
+    "create:netherite_backtank_placeable"
+  ],
+  "copperRating": 30.0,
+  "netheriteRating": 50.0,
+  "showHud": true
+}

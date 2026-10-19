@@ -488,6 +488,10 @@ file = "config/killfx-players.json"
 hash = "22c33018e994e06cf99605c60e1e7f5bddf10fea98d5290f26ed197b836b7d7c"
 
 [[files]]
+file = "config/killfx-pressure.json"
+hash = "9399a545c4d6e875beea64d2046db87df0374485ccd087929fa6d7f66453431a"
+
+[[files]]
 file = "config/killfx-ranks.json"
 hash = "73d77689d5b6cecf3ab96a2477e811ce2f853a00f88f9029e38b9b31e616a29a"
 
