@@ -1585,9 +1585,8 @@ hash = "253a414e73f57c890ae5e03f49517191267b1bef0a89252ae1221748cd0de4f9"
 metafile = true
 
 [[files]]
-file = "mods/cc-tweaked.pw.toml"
-hash = "e42363c32c9b6323eea977283c928cec373bfc415534ec92e9c3367ee8c54256"
-metafile = true
+file = "mods/cc-tweaked-1.21.1-forge-1.120.2.jar"
+hash = "2895bf13a7b50fa81a68543961ca5b3b6740d313770aea89304441ba9ca00545"
 
 [[files]]
 file = "mods/cccockpit-0.1.0.jar"
