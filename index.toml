@@ -387,6 +387,10 @@ file = "config/euphoria_patcher/settings.toml"
 hash = "d4ff06f1b6d8b191853b72996f8ba1d20cc90fa4e98e3222ab7fe552cf52b31e"
 
 [[files]]
+file = "config/explosionoverhaul/explosionoverhaul-common.toml"
+hash = "25a9e5c152489fde9f94f58a8457fe0f0206cf582c4dd965a1e78e25a8ed1c4f"
+
+[[files]]
 file = "config/fabric/indigo-renderer.properties"
 hash = "ab8e490e1d6a098ce3b1f988d6fe78d8babfad9744ca10286bade54a30fc2698"
 
@@ -429,7 +433,7 @@ hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
 [[files]]
 file = "config/immersive_optimization.json"
-hash = "749dcfa1713a52e6a88d2336f16ab815581b648e7ec659f6299fe49d7b9179c5"
+hash = "18ed9530b2539c72479de4bafa4bf180111848525b56ca8d842c5e9211275049"
 
 [[files]]
 file = "config/iris-excluded.json"
