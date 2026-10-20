@@ -1,0 +1,13 @@
+name = "CC: Wireless Peripheral Sable"
+filename = "cc_wireless_peripheral_sable-0.1.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sasKnwwX/versions/CoKoPiq4/cc_wireless_peripheral_sable-0.1.0.jar"
+hash-format = "sha512"
+hash = "0cb9c9154579488f84ced6f57e188431e38c830d4a484b0bc9ad77f00a515be6b862c1dfac7f937b1c52e5b2a2ca71b6eb4573ca3ad8920af0ceef1807e3e76e"
+
+[update]
+[update.modrinth]
+mod-id = "sasKnwwX"
+version = "CoKoPiq4"

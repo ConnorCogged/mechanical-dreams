@@ -1589,6 +1589,11 @@ file = "mods/cc-tweaked-1.21.1-forge-1.120.2.jar"
 hash = "2895bf13a7b50fa81a68543961ca5b3b6740d313770aea89304441ba9ca00545"
 
 [[files]]
+file = "mods/cc-wireless-peripheral-sable.pw.toml"
+hash = "fbc1e55342278481ba098699eabaaf0e938788c03ce00bd4a5f1987d78c92a0c"
+metafile = true
+
+[[files]]
 file = "mods/cccockpit-0.1.0.jar"
 hash = "2d46c02c1bbd4f496d13f9a048d8881890728ddc0f91d7686fb088485a62e248"
 
@@ -1821,6 +1826,11 @@ metafile = true
 [[files]]
 file = "mods/euphoria-patches.pw.toml"
 hash = "0926065e862736d6f17ca33d404912c25bcb19891ae48d2518dddfc8a213831b"
+metafile = true
+
+[[files]]
+file = "mods/explosion-overhaul-a-new-level-of-destruction.pw.toml"
+hash = "cabd5e3f0fa757015079d657485c9bced8fc769ed2e4be62aa48a138a72e4b47"
 metafile = true
 
 [[files]]

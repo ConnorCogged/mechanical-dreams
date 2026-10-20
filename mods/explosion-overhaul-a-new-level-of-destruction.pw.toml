@@ -1,0 +1,13 @@
+name = "Explosion Overhaul: A new level of destruction"
+filename = "explosionoverhaul-0.2.3.0-neoforge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/sOxnTLKl/versions/mxfQE01f/explosionoverhaul-0.2.3.0-neoforge.jar"
+hash-format = "sha512"
+hash = "5d1428678e5cbfed79d61c2fc1afbca0414d78b387e2f2d5d6ef0e989dd71d5366d9d62a627f7c6a0ec532627c0e3fdd9914f88955a1efee65811bd392f96170"
+
+[update]
+[update.modrinth]
+mod-id = "sOxnTLKl"
+version = "mxfQE01f"

@@ -1,0 +1,5 @@
+.env
+.env.*
+tools/ftp-sync/config.json
+tools/ftp-sync/config.json.bak
+tools/ftp-sync/discord/*.json
