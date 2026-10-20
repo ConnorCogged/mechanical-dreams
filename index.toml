@@ -288,7 +288,7 @@ hash = "dd1fabf921549ecaf23fc0cdb5eee8ab766c963671693dc29e5402bb2b4baf83"
 
 [[files]]
 file = "config/createbigcannons-server.toml"
-hash = "2dc6fc6823b7528edfe72f1bd2c46a22aa723e676a07365947fad5b783b9a406"
+hash = "b941b25e8840d09b5b5895c54516514c6849cc3fd13635ba8725a7fd080452b2"
 
 [[files]]
 file = "config/createdieselgenerators-client.toml"
@@ -433,7 +433,7 @@ hash = "a6c9d147a51c9e432c5c74c00285cfc5ba8b6fa4a0c6686051a7168b158d0d7a"
 
 [[files]]
 file = "config/immersive_optimization.json"
-hash = "18ed9530b2539c72479de4bafa4bf180111848525b56ca8d842c5e9211275049"
+hash = "d38c0b37bb90f1d57670d490b58fdc0cb5bfd9c7223568ddbcafbede92c51c6a"
 
 [[files]]
 file = "config/iris-excluded.json"
@@ -629,7 +629,7 @@ hash = "ba023dd02e9966b3a0fa6ab9b09ff547933c848ae67042995134c2b224fd8cbc"
 
 [[files]]
 file = "config/ritchiesprojectilelib-server.toml"
-hash = "793c05c7f9975032f536f7b9702a4f892b8beb31e641af1f12ee9c96aed4d013"
+hash = "271ca55fd7ded1f1efed33fe58e622174798aa7111d526d94581231ed54fbfde"
 
 [[files]]
 file = "config/rocketnautics-client.toml"
@@ -809,7 +809,7 @@ hash = "8b81e428e48334335233d4eee06fbfcd4b55c4680fcb2e860dd0090f9f52d15a"
 
 [[files]]
 file = "config/treephysics-common.toml"
-hash = "be771679b320be5abe4768c2026d6079b9cd6ee71b22209a9706c16a8d813c0f"
+hash = "15cc95529151b4b00c9bdd63adf41516372ab553cb8d47b2f7f7a5bd8dfb05df"
 
 [[files]]
 file = "config/trender.json"
@@ -1671,6 +1671,11 @@ hash = "434d92388783bd89bfad57891f43b7bab9b9c3b16800fd1d8de5f76049a2f304"
 metafile = true
 
 [[files]]
+file = "mods/create-aeronautics-ultimatefactory-recipe-fix.pw.toml"
+hash = "aef59d09c67d5c1ed3758265cc570bfae635b321af560f6805edfabfa27f3c96"
+metafile = true
+
+[[files]]
 file = "mods/create-aeronautics.pw.toml"
 hash = "3b8895369640b2a52d3e05f7186185ba6798e44d513f11c5427a0fe9c16769e9"
 metafile = true
@@ -1758,6 +1763,11 @@ metafile = true
 [[files]]
 file = "mods/create-tracks.pw.toml"
 hash = "6652073f815bed51608dc9d6a9e769ec783a131526054b35e8de6f47c8745fa2"
+metafile = true
+
+[[files]]
+file = "mods/create-ultimate-factory.pw.toml"
+hash = "34d808989e71221b8e01a44bc8031f20af1c94981acb0cba4669e0e58be69629"
 metafile = true
 
 [[files]]

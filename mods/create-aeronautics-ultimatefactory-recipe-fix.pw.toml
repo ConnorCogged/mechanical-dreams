@@ -1,0 +1,13 @@
+name = "Create: Aeronautics/Ultimate Factory Recipe Fix"
+filename = "create-aeronautics-ultimatefactory-recipe-fix-0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/mFXRseBe/versions/NSN8DKNx/create-aeronautics-ultimatefactory-recipe-fix-0.1.jar"
+hash-format = "sha512"
+hash = "cd9c5b49fab4177deb5f14925f2c94fa47fe962230e2a4850f152d51e69ee6c2db8c3b90b243ace81a58130c905ff57e252ce18c20d6828cfd2e6dcb8689a4f3"
+
+[update]
+[update.modrinth]
+mod-id = "mFXRseBe"
+version = "NSN8DKNx"

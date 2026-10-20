@@ -7,7 +7,7 @@
 	#The maximum amount of chunks that can be processed for loading each tick.
 	# Default: 32
 	# Range: 1 ~ 256
-	maxChunksLoadedEachTick = 32
+	maxChunksLoadedEachTick = 8
 	#[in Ticks]
 	#How long chunks loaded by this mod last for before being unloaded.
 	# Default: 3

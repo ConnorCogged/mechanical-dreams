@@ -1,7 +1,7 @@
 #treephysics.config.despawn_time.tooltip
 # Default: 144000
 # Range: > -1
-despawn_time = 144000
+despawn_time = 12000
 #treephysics.config.despawn_behavior.tooltip
 #Allowed Values: NO_DESPAWN, DESPAWN_SMALL, DESPAWN_ALL
 despawn_behavior = "DESPAWN_SMALL"
