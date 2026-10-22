@@ -1,0 +1,13 @@
+name = "CC: Tweaked - Secure Boot PKI"
+filename = "CCSecureBootPKI-1.1.1-b05eed7.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/RELRqPbP/versions/BATkSMgd/CCSecureBootPKI-1.1.1-b05eed7.jar"
+hash-format = "sha512"
+hash = "158ffd848e11561d0da70404a0c605bf2ffbd77d80591b9cd9b28766a4853a28d5bdf893b275c64aecc81a25e8fa579cd587319af4d4208a51acd771dcdb405a"
+
+[update]
+[update.modrinth]
+mod-id = "RELRqPbP"
+version = "BATkSMgd"

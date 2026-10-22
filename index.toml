@@ -1593,6 +1593,11 @@ file = "mods/cc-tweaked-1.21.1-forge-1.120.2.jar"
 hash = "2895bf13a7b50fa81a68543961ca5b3b6740d313770aea89304441ba9ca00545"
 
 [[files]]
+file = "mods/cc-tweaked-secure-boot-pki.pw.toml"
+hash = "3163418c25d8e14aea9e61cfc8f90298e38971872cd34dcd11cb0d8453880565"
+metafile = true
+
+[[files]]
 file = "mods/cc-wireless-peripheral-sable.pw.toml"
 hash = "fbc1e55342278481ba098699eabaaf0e938788c03ce00bd4a5f1987d78c92a0c"
 metafile = true
@@ -1627,8 +1632,8 @@ hash = "f63505f8b03d21eaa2d91259b2f42b5ba6e2c6136d0dd463739820109f89536f"
 metafile = true
 
 [[files]]
-file = "mods/connoradditions-1.2.28.jar"
-hash = "93968a93a05678ecd49afb32aee3fa5b4da3e8204d987bdfd419df64653cd13d"
+file = "mods/connoradditions-1.2.29.jar"
+hash = "8af5705206f6c1c7a1f23ace92e093b0acd295138f7dd89bd4d79df98a5220c3"
 
 [[files]]
 file = "mods/continents.pw.toml"
