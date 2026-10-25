@@ -1,6 +1,6 @@
 name = "BlueMap"
 filename = "bluemap-5.7-neoforge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/swbUV1cr/versions/8iJcPOHJ/bluemap-5.7-neoforge.jar"
@@ -11,3 +11,8 @@ hash = "7332afbcd2389f846e2142a0937a85aec1a7c90b02876d396c701bdaccae529ef918adad
 [update.modrinth]
 mod-id = "swbUV1cr"
 version = "8iJcPOHJ"
+
+[option]
+optional = true
+default = false
+description = "Server-side web map. Off by default; enable only to test BlueMap in singleplayer. Not needed to join the server."

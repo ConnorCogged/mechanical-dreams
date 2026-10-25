@@ -1,6 +1,6 @@
 name = "CCSecureBoot"
 filename = "CCSecureBoot-1.0.2-neoforge-1.21.1.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/8S3qbPSr/versions/dGeakQRM/CCSecureBoot-1.0.2-neoforge-1.21.1.jar"
@@ -11,3 +11,8 @@ hash = "b4342b73a64b7b7166883832af73705720e3e027e04fbcdaf813135454ed1aa6ced84f62
 [update.modrinth]
 mod-id = "8S3qbPSr"
 version = "dGeakQRM"
+
+[option]
+optional = true
+default = false
+description = "Server-side CC: Tweaked secure boot. Off by default; enable only to test it in singleplayer. Not needed to join the server."

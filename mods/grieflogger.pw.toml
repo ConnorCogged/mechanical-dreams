@@ -1,6 +1,6 @@
 name = "GriefLogger"
 filename = "grieflogger-1.2.9-1.21.1-neoforge.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/8oGVUFuX/versions/Rmp3tvQg/grieflogger-1.2.9-1.21.1-neoforge.jar"
@@ -11,3 +11,8 @@ hash = "e8d3830fb8fa4e76948999a7344f2a4a7c2a923c912bcff9ef8be1f8bbfd82d3b2dd7953
 [update.modrinth]
 mod-id = "8oGVUFuX"
 version = "Rmp3tvQg"
+
+[option]
+optional = true
+default = false
+description = "Server-side block/grief logging. Off by default; enable only to test GriefLogger in singleplayer. Not needed to join the server."

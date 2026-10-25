@@ -1,6 +1,6 @@
 name = "CC: Tweaked - Secure Boot PKI"
 filename = "CCSecureBootPKI-1.1.1-b05eed7.jar"
-side = "server"
+side = "both"
 
 [download]
 url = "https://cdn.modrinth.com/data/RELRqPbP/versions/BATkSMgd/CCSecureBootPKI-1.1.1-b05eed7.jar"
@@ -11,3 +11,8 @@ hash = "158ffd848e11561d0da70404a0c605bf2ffbd77d80591b9cd9b28766a4853a28d5bdf893
 [update.modrinth]
 mod-id = "RELRqPbP"
 version = "BATkSMgd"
+
+[option]
+optional = true
+default = false
+description = "Server-side CC: Tweaked secure boot PKI (needs CCSecureBoot). Off by default; enable only to test it in singleplayer. Not needed to join the server."

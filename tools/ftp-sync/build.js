@@ -117,6 +117,41 @@ function trimIndex(indexText, keep) {
   return header + kept.join('');
 }
 
+/**
+ * Server mods that players may optionally enable for singleplayer testing are
+ * published as side = "both" + [option] optional = true, default = false.
+ * packwiz-installer runs headless (-g) here, so it takes that default and would
+ * leave them off the server. Serve those .pw.toml files with default = true
+ * instead, and point their index hashes at the patched bytes.
+ * Returns { index, overrides } where overrides maps "/mods/x.pw.toml" -> text.
+ */
+async function forceOptionalBothMods(indexText) {
+  const overrides = {};
+  // Pre-filter on the local repo copy so we don't fetch every .pw.toml; the
+  // published bytes are still what gets patched and hashed.
+  const repoRoot = path.join(__dirname, '..', '..');
+  const metafiles = [...indexText.matchAll(/file\s*=\s*"(mods\/[^"]+\.pw\.toml)"/g)]
+    .map((m) => m[1])
+    .filter((f) => {
+      try { return /^optional\s*=\s*true/m.test(fs.readFileSync(path.join(repoRoot, f), 'utf8')); }
+      catch { return false; }
+    });
+  for (const file of metafiles) {
+    const text = await fetchText(`${PACK_BASE}/${file}`);
+    if (!/^side\s*=\s*"both"/m.test(text) || !/^optional\s*=\s*true/m.test(text)) continue;
+    const patched = text.replace(/^default\s*=\s*false/m, 'default = true');
+    if (patched === text) continue;
+    overrides['/' + file] = patched;
+    const esc = file.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+    indexText = indexText.replace(
+      new RegExp(`(file\\s*=\\s*"${esc}"\\s*\\nhash\\s*=\\s*")[^"]*(")`),
+      `$1${sha256(patched)}$2`
+    );
+    console.log(`Forcing optional server mod on: ${file}`);
+  }
+  return { index: indexText, overrides };
+}
+
 /** Replace the hash inside the [index] table of pack.toml. */
 function patchPackHash(packText, newHash) {
   return packText.replace(/(\[index\][\s\S]*?\bhash\s*=\s*")[^"]*(")/, `$1${newHash}$2`);
@@ -168,7 +203,7 @@ async function build({ dryRun, withConfig }) {
 
   const packToml = await fetchText(`${PACK_BASE}/pack.toml`);
   const indexToml = await fetchText(`${PACK_BASE}/index.toml`);
-  const trimmedIndex = trimIndex(indexToml, keep);
+  const { index: trimmedIndex, overrides } = await forceOptionalBothMods(trimIndex(indexToml, keep));
   const trimmedPack = patchPackHash(packToml, sha256(trimmedIndex));
 
   const kept = (trimmedIndex.match(/\[\[files\]\]/g) || []).length;
@@ -180,6 +215,7 @@ async function build({ dryRun, withConfig }) {
     const url = req.url.split('?')[0];
     if (url === '/pack.toml') { res.writeHead(200, { 'Content-Type': 'text/plain' }); res.end(trimmedPack); }
     else if (url === '/index.toml') { res.writeHead(200, { 'Content-Type': 'text/plain' }); res.end(trimmedIndex); }
+    else if (overrides[url]) { res.writeHead(200, { 'Content-Type': 'text/plain' }); res.end(overrides[url]); }
     else { res.writeHead(302, { Location: PACK_BASE + url }); res.end(); }
   });
   await new Promise((r) => server.listen(0, '127.0.0.1', r));

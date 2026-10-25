@@ -1552,7 +1552,7 @@ metafile = true
 
 [[files]]
 file = "mods/bluemap.pw.toml"
-hash = "f33a4720ef4f315b6d1f778039e9f7bdb8f5ef1b58a57d565c30fd1d8adee207"
+hash = "2c794651d51e831912cc1f1d42ac6865e2f6c0a6d52927f11c4ac309b1689565"
 metafile = true
 
 [[files]]
@@ -1594,7 +1594,7 @@ hash = "2895bf13a7b50fa81a68543961ca5b3b6740d313770aea89304441ba9ca00545"
 
 [[files]]
 file = "mods/cc-tweaked-secure-boot-pki.pw.toml"
-hash = "3163418c25d8e14aea9e61cfc8f90298e38971872cd34dcd11cb0d8453880565"
+hash = "4171436230c97067b5de414866d1f8a578f3f85cdf981077d25e783650269408"
 metafile = true
 
 [[files]]
@@ -1608,7 +1608,7 @@ hash = "2d46c02c1bbd4f496d13f9a048d8881890728ddc0f91d7686fb088485a62e248"
 
 [[files]]
 file = "mods/ccsecureboot.pw.toml"
-hash = "c40e3fef9912183adf501757bb20f897834680f49de0a6b23ae28b0ee4fce3de"
+hash = "1b056d78cf814cf9ef83bc60d0d7a8184a0e08e0cc7af0445ddbcf64246a953c"
 metafile = true
 
 [[files]]
@@ -1879,7 +1879,7 @@ metafile = true
 
 [[files]]
 file = "mods/grieflogger.pw.toml"
-hash = "e4d63300d9fdf653fe7eb135a52755680d00566ef5b4628c3c03db949fdb7fcb"
+hash = "2cc328de3452ab8ca2061e960f68148ea1fa8d631205e53842a4276fac8fa8d5"
 metafile = true
 
 [[files]]
@@ -2116,7 +2116,7 @@ metafile = true
 
 [[files]]
 file = "mods/worldedit.pw.toml"
-hash = "74537d95785dd2a5b401d8322ec48d54398d267be6cd5199dd43e52435623828"
+hash = "d26ec87227774df546dc3c86bcfe0b23badf8911cf01bbcd121ba5ee30d8ba82"
 metafile = true
 
 [[files]]

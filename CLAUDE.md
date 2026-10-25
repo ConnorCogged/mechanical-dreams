@@ -71,6 +71,10 @@ cd dist/cf-pack && zip -r ../Mechanical-Dreams-CurseForge.zip manifest.json over
   (Sodium, shaders, EMI, minimaps…). `side = "both"` and `side = "server"` mods are required.
   Only client-side mods can be optional. A `both` mod must match between client and server, so
   "disabling" one means removing it. Take sides from the mod's Modrinth `client_side`/`server_side`.
+  **Exception:** server-only tools players may want for singleplayer testing (WorldEdit, BlueMap,
+  GriefLogger, CCSecureBoot/PKI) are `side = "both"` + `optional = true, default = false`, using a
+  Modrinth URL. `tools/ftp-sync/build.js` serves these to the headless server installer with
+  `default = true`, so the server still gets them. Only use this for mods a vanilla client can join without.
 - **Worldgen/biome/dimension/structure mods must be `side = "both"`, never `"server"`.**
   Singleplayer runs an integrated server on the client. A server-only worldgen mod is missing
   there, which gives `Missing key ... worldgen/biome` crashes.
