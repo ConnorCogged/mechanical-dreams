@@ -27,6 +27,7 @@ this repository; each is listed with its author, license, and source.
 |-----|--------|---------|--------|
 | Create: Cosmonautics (rocketnautics 26.08.307) | CosmonauticsTeam | GPLv3 | https://github.com/CosmonauticsTeam/Create-Cosmonautics (tag 26.08.307) |
 | CCSecureBoot | JackMacWindows | MPL-2.0 | https://modrinth.com/mod/ccsecureboot |
+| More Culling | FX - PR0CESS | GPLv3 | https://github.com/fxmorin/moreculling |
 
 ## Your outstanding obligations
 

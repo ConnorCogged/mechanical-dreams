@@ -1546,6 +1546,11 @@ hash = "6d3a1c92eee4dd671253c41ec000ae48064a33c45263d6adce5cad466395169d"
 metafile = true
 
 [[files]]
+file = "mods/badoptimizations.pw.toml"
+hash = "1d914c77d7c6fbb45607a7e8e6fd5f20386a48ee026b7f8a6926a9f1ca1b9f6f"
+metafile = true
+
+[[files]]
 file = "mods/beautiful-enchanted-books.pw.toml"
 hash = "73e1227e6c3292ca45ee7ffa86a241447cc3f9c47fe25899ff292fc86cc716f6"
 metafile = true
@@ -1613,7 +1618,7 @@ metafile = true
 
 [[files]]
 file = "mods/cloth-config.pw.toml"
-hash = "22286fa216349c0767808903a0a38662857d2adee54950a18cbf26c167a06029"
+hash = "75181b55e0407d1fca1e2f346c6501f919f5109545990ddfb66db9cd1b771f8a"
 metafile = true
 
 [[files]]
@@ -1813,6 +1818,11 @@ file = "mods/directgpu-1.0.20-neoforge-1.21.1.jar"
 hash = "3c1be5ef825e53a29ef9cb60db7b9d207d62de45721b8bf00804d0ad9ecfddd7"
 
 [[files]]
+file = "mods/dynamic-fps.pw.toml"
+hash = "b2637537ecf388f5a806d28c9d1ec9780a9d789d91ff8acf820610230d2de12a"
+metafile = true
+
+[[files]]
 file = "mods/dynamiclights-reforged.pw.toml"
 hash = "49ef045624365b2f17bbb3ff6726d6027deaad9c5d8e42de8454c6655c71b1e6"
 metafile = true
@@ -1939,6 +1949,11 @@ metafile = true
 [[files]]
 file = "mods/modernfix.pw.toml"
 hash = "a58c1322f0d21a88b3a42627374f045fe34a0385ef6630ec516b77d73438accc"
+metafile = true
+
+[[files]]
+file = "mods/moreculling.pw.toml"
+hash = "535bcd0ca03b87e21188988b0cdfa0b983d32cea84f609e70c96320b983234ea"
 metafile = true
 
 [[files]]
